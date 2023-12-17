@@ -12,7 +12,7 @@ This repository hosts all the community contributed modules and extensions for
 ## What is Conductor?
 
 Conductor is a workflow orchestration engine that runs in the cloud.
-You can find more details about Conductor at the main repository of [Netflix Conductor](https://github.com/swift-conductor/conductor)
+You can find more details about Conductor at the main repository of [Swift Conductor](https://github.com/swift-conductor/conductor)
 
 ### What is _this_ repository?
 

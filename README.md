@@ -1,19 +1,17 @@
-# Announcement
+## Notice
 
-> Effective **December 13, 2023**, Netflix will discontinue maintenance of Conductor OSS on GitHub. This strategic decision, while difficult, is essential for realigning our resources to better serve our business objectives with our internal Conductor fork.
-> 
-> We are *deeply grateful* for your support and contributions over the years. While Netflix will no longer be maintaining this repo, members of the Conductor community have been active in promoting alternative forks of this project, we’ll leave the code as is and trust that the health of the community will remain strong and continue to develop moving forward.
+> As of **December 13, 2023**, Netflix has discontinued maintenance of Netflix Conductor OSS on GitHub. This is a fork of the [original](https://github.com/swift-conductor/conductor) project maintained by [Swift Software Group](https://www.swiftsoftwaregroup.com).
 
-## Netflix Conductor community modules
+## Swift Conductor community modules
 
 This repository hosts all the community contributed modules and extensions for 
-[Netflix Conductor](https://github.com/Netflix/conductor)
+[Swift Conductor](https://github.com/swift-conductor/conductor)
 
-![Netflix Conductor Logo](https://github.com/Netflix/conductor/blob/main/docs/docs/img/conductor-vector-x.png)
+![Swift Conductor Logo](https://github.com/swift-conductor/conductor/blob/main/docs/docs/img/logo.svg)
 
 ## What is Conductor?
 Conductor is a workflow orchestration engine that runs in the cloud.
-You can find more details about Conductor at the main repository of [Netflix Conductor](https://github.com/Netflix/conductor)
+You can find more details about Conductor at the main repository of [Netflix Conductor](https://github.com/swift-conductor/conductor)
 
 ### What is _this_ repository?
 Conductor is an extensible platform that allows users to bring in their own persistence, queues, integrations eventing systems such as SQS, NATS, AMQP etc.
@@ -22,7 +20,7 @@ The core conductor project contains implementations tested and supported by Netf
 the modules contributed by community.
 
 ## Repository Structure and Published Artifcats
-Binaries are available from [Netflix OSS Maven](https://artifacts.netflix.net/netflixoss/com/netflix/conductor/) repository, or the [Maven Central Repository](https://search.maven.org/search?q=g:com.netflix.conductor).
+Binaries are available from the [Maven Central Repository](https://search.maven.org/search?q=g:com.netflix.conductor).
 
 Binaries are published under the group: **com.netflix.conductor**
 
@@ -54,17 +52,17 @@ Similar to core Conductor the builds are published often with each major release
 Release numbers are kept in sync with main Conductor releases, which removes the need for a version compatibility matrix.
 
 #### How do I get help?
-Please use the Discussions on Conductor repo at https://github.com/Netflix/conductor/discussions
+Please use the Discussions on Conductor repo at https://github.com/swift-conductor/conductor/discussions
 
 #### How do I add new modules here?
 1. Start with a proposal by posting on the discussion
 2. Send a PR
 
 #### I have a question not listed here.
-Please use the Discussions on Conductor repo at https://github.com/Netflix/conductor/discussions
+Please use the Discussions on Conductor repo at https://github.com/swift-conductor/conductor/discussions
 
 #### Does it change how I build Conductor or use the Conductor binaries? (Do I need to pull additional dependency in my builds going forward?)
-Conductor (https://github.com/Netflix/conductor) **no longer** pulls in all the dependencies from this repository as part of the [conductor-server](https://github.com/Netflix/conductor/tree/main/server) build.
+Conductor (https://github.com/swift-conductor/conductor) **no longer** pulls in all the dependencies from this repository as part of the [conductor-server](https://github.com/swift-conductor/conductor/tree/main/server) build.
 If you plan to use the modules from this repository, please build [community-server](/community-server) which pulls in all the dependencies. 
 
 

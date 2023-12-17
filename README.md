@@ -1,6 +1,6 @@
 ## Notice
 
-> As of **December 13, 2023**, Netflix has discontinued maintenance of Netflix Conductor OSS on GitHub. This is a fork of the [original](https://github.com/swift-conductor/conductor-community) project maintained by [Swift Software Group](https://www.swiftsoftwaregroup.com).
+> As of **December 13, 2023**, Netflix has discontinued maintenance of Netflix Conductor OSS on GitHub. This is a fork of the [original](https://github.com/Netflix/conductor-community) project maintained by [Swift Software Group](https://www.swiftsoftwaregroup.com).
 
 ## Swift Conductor community modules
 

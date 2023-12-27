@@ -30,8 +30,8 @@ jobs:
           export RC=rc
           sed -i "s/revConductor =.*/revConductor = '$VERSION'/g" dependencies.gradle
           ./gradlew generateLock saveLock
-          git config --global user.name 'Anoop Panicker'
-          git config --global user.email 'apanicker@netflix.com'
+          git config --global user.name 'vkantchev'
+          git config --global user.email 'vkantchev@users.noreply.github.com'
           git commit -am "Update Conductor version dependency to $VERSION"
           git push
           cat dependencies.gradle | grep revConductor

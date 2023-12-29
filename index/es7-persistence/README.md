@@ -42,7 +42,7 @@ Also you need to recreate dependencies.lock files with ES7 dependencies. To do t
 2. To use the ES7 for all modules include test-harness, you must change also the following files:
 
 https://github.com/swift-conductor/conductor/blob/main/test-harness/build.gradle
-https://github.com/swift-conductor/conductor/blob/main/test-harness/src/test/java/com/netflix/conductor/test/integration/AbstractEndToEndTest.java
+https://github.com/swift-conductor/conductor/blob/main/test-harness/src/test/java/com/swiftconductor/conductor/test/integration/AbstractEndToEndTest.java
 
 In file:
  
@@ -52,10 +52,10 @@ In file:
 
 In file:
  
-- /test-harness/src/test/java/com/netflix/conductor/test/integration/AbstractEndToEndTest.java
+- /test-harness/src/test/java/com/swiftconductor/conductor/test/integration/AbstractEndToEndTest.java
 
 * change conductor.elasticsearch.version from 6 to 7
-* change DockerImageName.parse("docker.elastic.co/elasticsearch/elasticsearch-oss").withTag("6.8.12") to DockerImageName.parse("docker.elastic.co/elasticsearch/elasticsearch-oss").withTag("7.6.2")
+* change DockerImageName.parse("docker.elastic.co/elasticsearch/elasticsearch-oss").withTag("6.8.12") to DockerImageName.parse("docker.elastic.co/elasticsearch/elasticsearch-oss").withTag("7.10.2")
 
 
 

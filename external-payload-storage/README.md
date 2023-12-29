@@ -5,7 +5,7 @@ Cf. Documentation [External Payload Storage](https://netflix.github.io/conductor
 
 ## Published Artifacts
 
-Group: `com.netflix.conductor`
+Group: `com.swiftconductor`
 
 | Published Artifact | Description |
 | ----------- | ----------- | 

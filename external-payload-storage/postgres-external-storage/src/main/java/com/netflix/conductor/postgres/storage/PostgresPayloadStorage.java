@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.netflix.conductor.postgres.storage;
+package com.swiftconductor.postgres.storage;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
@@ -26,11 +26,11 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.netflix.conductor.common.run.ExternalStorageLocation;
-import com.netflix.conductor.common.utils.ExternalPayloadStorage;
-import com.netflix.conductor.core.exception.NonTransientException;
-import com.netflix.conductor.core.utils.IDGenerator;
-import com.netflix.conductor.postgres.config.PostgresPayloadProperties;
+import com.swiftconductor.common.run.ExternalStorageLocation;
+import com.swiftconductor.common.utils.ExternalPayloadStorage;
+import com.swiftconductor.core.exception.NonTransientException;
+import com.swiftconductor.core.utils.IDGenerator;
+import com.swiftconductor.postgres.config.PostgresPayloadProperties;
 
 /**
  * Store and pull the external payload which consists of key and stream of data in PostgreSQL

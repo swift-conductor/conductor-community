@@ -2,7 +2,7 @@
  * Common place to define all the version dependencies
  */
 ext {
-    revConductor = '3.15.0'
+    revConductor = '3.16.0-SNAPSHOT'
     revActivation = '2.0.0'
     revAmqpClient = '5.13.0'
     revAwaitility = '3.1.6'
@@ -12,7 +12,7 @@ ext {
     revCommonsIo = '2.7'
     revCuratorRecipes = '5.4.0'
     revCuratorTest = '5.4.0'
-    revElasticSearch7 = '7.17.13'
+    revElasticSearch7 = '7.17.16'
     revEmbeddedRedis = '0.6'
     revEurekaClient = '1.10.10'
     revGrpc = '1.57.+'
@@ -42,7 +42,7 @@ ext {
     revGroovy = '3.0.19'
     revSpock = '2.3-groovy-3.0'
     revSpotifyCompletableFutures = '0.3.3'
-    revTestContainer = '1.18.3'
+    revTestContainer = '1.19.3'
     revDynoQueues = '2.0.20'
     revLog4J = '2.17.2!!'
     revCodec = '1.15'

@@ -47,7 +47,7 @@ allprojects {
         }
     }
 
-    group = 'com.netflix.conductor'
+    group = 'com.swiftconductor.conductor'
 
     configurations.all {
         exclude group: 'ch.qos.logback', module: 'logback-classic'
@@ -59,25 +59,26 @@ allprojects {
     repositories {
         mavenCentral()
 
-        // oss-candidate for -rc.* verions:
+        // repository for -SNAPSHOT.* verions:
         maven {
-            url "https://artifactory-oss.prod.netflix.net/artifactory/maven-oss-candidates"
+            // url "https://artifactory-oss.prod.netflix.net/artifactory/maven-oss-candidates"
+            url "https://s01.oss.sonatype.org/content/repositories/snapshots"
         }
 
         /**
          * This repository locates artifacts that don't exist in maven central but we had to backup from jcenter
          * The exclusiveContent
          */
-        exclusiveContent {
-            forRepository {
-                maven {
-                    url "https://artifactory-oss.prod.netflix.net/artifactory/required-jcenter-modules-backup"
-                }
-            }
-            filter {
-                includeGroupByRegex "com\\.github\\.vmg.*"
-            }
-        }
+        // exclusiveContent {
+        //     forRepository {
+        //         maven {
+        //             url "https://artifactory-oss.prod.netflix.net/artifactory/required-jcenter-modules-backup"
+        //         }
+        //     }
+        //     filter {
+        //         includeGroupByRegex "com\\.github\\.vmg.*"
+        //     }
+        // }
     }
 
     dependencyManagement {
@@ -144,7 +145,7 @@ configure(allprojects) {
         java {
             googleJavaFormat().aosp()
             removeUnusedImports()
-            importOrder('java', 'javax', 'org', 'com.netflix', '', '\\#com.netflix', '\\#')
+            importOrder('java', 'javax', 'org', 'com.swiftconductor', '', '\\#com.swiftconductor', '\\#')
             licenseHeaderFile("$rootDir/licenseheader.txt")
         }
     }

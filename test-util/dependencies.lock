@@ -17,35 +17,35 @@
         "com.google.protobuf:protobuf-java": {
             "locked": "3.21.12"
         },
-        "com.netflix.conductor:conductor-client": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-common": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-core": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-grpc-client": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-grpc-server": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-redis-persistence": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-rest": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-server": {
-            "locked": "3.15.0"
-        },
         "com.netflix.dyno-queues:dyno-queues-redis": {
             "locked": "2.0.20"
         },
         "com.rabbitmq:amqp-client": {
             "locked": "5.13.0"
+        },
+        "com.swiftconductor:conductor-client": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-common": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-core": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-grpc-client": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-grpc-server": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-redis-persistence": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-rest": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-server": {
+            "locked": "3.16.0-SNAPSHOT"
         },
         "org.apache.commons:commons-lang3": {
             "locked": "3.12.0"
@@ -69,10 +69,10 @@
             "locked": "3.0.19"
         },
         "org.elasticsearch.client:elasticsearch-rest-client": {
-            "locked": "7.17.13"
+            "locked": "7.17.16"
         },
         "org.elasticsearch.client:elasticsearch-rest-high-level-client": {
-            "locked": "7.17.13"
+            "locked": "7.17.16"
         },
         "org.spockframework:spock-core": {
             "locked": "2.3-groovy-3.0"
@@ -109,35 +109,35 @@
         "com.google.protobuf:protobuf-java": {
             "locked": "3.21.12"
         },
-        "com.netflix.conductor:conductor-client": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-common": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-core": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-grpc-client": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-grpc-server": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-redis-persistence": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-rest": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-server": {
-            "locked": "3.15.0"
-        },
         "com.netflix.dyno-queues:dyno-queues-redis": {
             "locked": "2.0.20"
         },
         "com.rabbitmq:amqp-client": {
             "locked": "5.13.0"
+        },
+        "com.swiftconductor:conductor-client": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-common": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-core": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-grpc-client": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-grpc-server": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-redis-persistence": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-rest": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-server": {
+            "locked": "3.16.0-SNAPSHOT"
         },
         "org.apache.commons:commons-lang3": {
             "locked": "3.12.0"
@@ -161,10 +161,10 @@
             "locked": "3.0.19"
         },
         "org.elasticsearch.client:elasticsearch-rest-client": {
-            "locked": "7.17.13"
+            "locked": "7.17.16"
         },
         "org.elasticsearch.client:elasticsearch-rest-high-level-client": {
-            "locked": "7.17.13"
+            "locked": "7.17.16"
         },
         "org.spockframework:spock-core": {
             "locked": "2.3-groovy-3.0"
@@ -201,35 +201,35 @@
         "com.google.protobuf:protobuf-java": {
             "locked": "3.21.12"
         },
-        "com.netflix.conductor:conductor-client": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-common": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-core": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-grpc-client": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-grpc-server": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-redis-persistence": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-rest": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-server": {
-            "locked": "3.15.0"
-        },
         "com.netflix.dyno-queues:dyno-queues-redis": {
             "locked": "2.0.20"
         },
         "com.rabbitmq:amqp-client": {
             "locked": "5.13.0"
+        },
+        "com.swiftconductor:conductor-client": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-common": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-core": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-grpc-client": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-grpc-server": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-redis-persistence": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-rest": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-server": {
+            "locked": "3.16.0-SNAPSHOT"
         },
         "junit:junit": {
             "locked": "4.13.2"
@@ -256,10 +256,10 @@
             "locked": "3.0.19"
         },
         "org.elasticsearch.client:elasticsearch-rest-client": {
-            "locked": "7.17.13"
+            "locked": "7.17.16"
         },
         "org.elasticsearch.client:elasticsearch-rest-high-level-client": {
-            "locked": "7.17.13"
+            "locked": "7.17.16"
         },
         "org.junit.vintage:junit-vintage-engine": {
             "locked": "5.8.2"
@@ -308,35 +308,35 @@
         "com.google.protobuf:protobuf-java": {
             "locked": "3.21.12"
         },
-        "com.netflix.conductor:conductor-client": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-common": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-core": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-grpc-client": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-grpc-server": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-redis-persistence": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-rest": {
-            "locked": "3.15.0"
-        },
-        "com.netflix.conductor:conductor-server": {
-            "locked": "3.15.0"
-        },
         "com.netflix.dyno-queues:dyno-queues-redis": {
             "locked": "2.0.20"
         },
         "com.rabbitmq:amqp-client": {
             "locked": "5.13.0"
+        },
+        "com.swiftconductor:conductor-client": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-common": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-core": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-grpc-client": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-grpc-server": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-redis-persistence": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-rest": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor:conductor-server": {
+            "locked": "3.16.0-SNAPSHOT"
         },
         "junit:junit": {
             "locked": "4.13.2"
@@ -363,10 +363,10 @@
             "locked": "3.0.19"
         },
         "org.elasticsearch.client:elasticsearch-rest-client": {
-            "locked": "7.17.13"
+            "locked": "7.17.16"
         },
         "org.elasticsearch.client:elasticsearch-rest-high-level-client": {
-            "locked": "7.17.13"
+            "locked": "7.17.16"
         },
         "org.junit.vintage:junit-vintage-engine": {
             "locked": "5.8.2"

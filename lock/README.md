@@ -6,7 +6,7 @@ Conductor locks are pluggable - the core conductor uses Redis for locks.
 
 ## Published Artifacts
 
-Group: `com.netflix.conductor`
+Group: `com.swiftconductor`
 
 | Published Artifact | Description |
 | ----------- | ----------- | 

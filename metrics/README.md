@@ -11,7 +11,7 @@ Conductor supports plugging in metrics collectors, the following are currently s
 
 ## Published Artifacts
 
-Group: `com.netflix.conductor`
+Group: `com.swiftconductor`
 
 | Published Artifact | Description |
 | ----------- | ----------- | 

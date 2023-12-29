@@ -11,11 +11,11 @@
         "com.fasterxml.jackson.core:jackson-databind": {
             "locked": "2.13.5"
         },
-        "com.netflix.conductor:conductor-common": {
-            "locked": "3.15.0"
+        "com.swiftconductor:conductor-common": {
+            "locked": "3.16.0-SNAPSHOT"
         },
-        "com.netflix.conductor:conductor-core": {
-            "locked": "3.15.0"
+        "com.swiftconductor:conductor-core": {
+            "locked": "3.16.0-SNAPSHOT"
         },
         "org.apache.commons:commons-lang3": {
             "locked": "3.12.0"
@@ -43,11 +43,11 @@
         "com.fasterxml.jackson.core:jackson-databind": {
             "locked": "2.13.5"
         },
-        "com.netflix.conductor:conductor-common": {
-            "locked": "3.15.0"
+        "com.swiftconductor:conductor-common": {
+            "locked": "3.16.0-SNAPSHOT"
         },
-        "com.netflix.conductor:conductor-core": {
-            "locked": "3.15.0"
+        "com.swiftconductor:conductor-core": {
+            "locked": "3.16.0-SNAPSHOT"
         },
         "org.apache.commons:commons-lang3": {
             "locked": "3.12.0"
@@ -75,11 +75,11 @@
         "com.fasterxml.jackson.core:jackson-databind": {
             "locked": "2.13.5"
         },
-        "com.netflix.conductor:conductor-common": {
-            "locked": "3.15.0"
+        "com.swiftconductor:conductor-common": {
+            "locked": "3.16.0-SNAPSHOT"
         },
-        "com.netflix.conductor:conductor-core": {
-            "locked": "3.15.0"
+        "com.swiftconductor:conductor-core": {
+            "locked": "3.16.0-SNAPSHOT"
         },
         "junit:junit": {
             "locked": "4.13.2"
@@ -119,11 +119,11 @@
         "com.fasterxml.jackson.core:jackson-databind": {
             "locked": "2.13.5"
         },
-        "com.netflix.conductor:conductor-common": {
-            "locked": "3.15.0"
+        "com.swiftconductor:conductor-common": {
+            "locked": "3.16.0-SNAPSHOT"
         },
-        "com.netflix.conductor:conductor-core": {
-            "locked": "3.15.0"
+        "com.swiftconductor:conductor-core": {
+            "locked": "3.16.0-SNAPSHOT"
         },
         "junit:junit": {
             "locked": "4.13.2"

@@ -2,18 +2,6 @@ plugins {
     id "com.gradle.enterprise" version "3.4.1"
 }
 
-gradleEnterprise {
-    buildScan {
-        termsOfServiceUrl = "https://gradle.com/terms-of-service"
-        termsOfServiceAgree = "yes"
-        publishAlways()
-
-        buildScanPublished { scan ->
-            file("buildscan.log") << "${new Date()} - ${scan.buildScanUri}\n"
-        }
-    }
-}
-
 rootProject.name = 'conductor-community'
 
 include 'external-payload-storage'
@@ -52,3 +40,18 @@ rootProject.children.stream()
                 !p.name.equals("lock") && !p.name.equals("task"))
         .forEach(it -> it.name = "conductor-" + it.name)
 
+
+if (System.getenv("GITHUB_ACTIONS")) {
+    gradleEnterprise {
+        buildScan {
+            termsOfServiceUrl = "https://gradle.com/terms-of-service"
+            termsOfServiceAgree = "yes"
+
+            publishAlways()
+
+            buildScanPublished { scan ->
+                file("buildscan.log") << "${new Date()} - ${scan.buildScanUri}\n"
+            }
+        }
+    }
+}

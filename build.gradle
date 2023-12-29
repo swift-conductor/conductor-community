@@ -19,8 +19,11 @@ plugins {
     id 'java'
     id 'application'
     id 'jacoco'
-    id 'nebula.netflixoss' version '11.3.2'
+
     id 'org.sonarqube' version '3.4.0.2513'
+
+    id 'com.netflix.nebula.contacts' version '7.0.1'
+    id 'com.netflix.nebula.netflixoss' version '11.3.2'
 }
 
 // Establish version and status
@@ -44,7 +47,7 @@ allprojects {
         }
     }
 
-    group = 'com.netflix.conductor'
+    group = 'com.swiftconductor.conductor'
 
     configurations.all {
         exclude group: 'ch.qos.logback', module: 'logback-classic'
@@ -56,25 +59,26 @@ allprojects {
     repositories {
         mavenCentral()
 
-        // oss-candidate for -rc.* verions:
+        // repository for -SNAPSHOT.* verions:
         maven {
-            url "https://artifactory-oss.prod.netflix.net/artifactory/maven-oss-candidates"
+            // url "https://artifactory-oss.prod.netflix.net/artifactory/maven-oss-candidates"
+            url "https://s01.oss.sonatype.org/content/repositories/snapshots"
         }
 
         /**
          * This repository locates artifacts that don't exist in maven central but we had to backup from jcenter
          * The exclusiveContent
          */
-        exclusiveContent {
-            forRepository {
-                maven {
-                    url "https://artifactory-oss.prod.netflix.net/artifactory/required-jcenter-modules-backup"
-                }
-            }
-            filter {
-                includeGroupByRegex "com\\.github\\.vmg.*"
-            }
-        }
+        // exclusiveContent {
+        //     forRepository {
+        //         maven {
+        //             url "https://artifactory-oss.prod.netflix.net/artifactory/required-jcenter-modules-backup"
+        //         }
+        //     }
+        //     filter {
+        //         includeGroupByRegex "com\\.github\\.vmg.*"
+        //     }
+        // }
     }
 
     dependencyManagement {
@@ -122,10 +126,14 @@ jacocoTestReport {
     }
 }
 
+task server {
+    dependsOn ':conductor-community-server:bootRun'
+}
+
 sonarqube {
     properties {
-        property "sonar.projectKey", "com.netflix.conductor:conductor"
-        property "sonar.organization", "netflix"
+        property "sonar.projectKey", "swift-conductor_conductor"
+        property "sonar.organization", "swift-conductor"
         property "sonar.host.url", "https://sonarcloud.io"
     }
 }
@@ -137,8 +145,22 @@ configure(allprojects) {
         java {
             googleJavaFormat().aosp()
             removeUnusedImports()
-            importOrder('java', 'javax', 'org', 'com.netflix', '', '\\#com.netflix', '\\#')
+            importOrder('java', 'javax', 'org', 'com.swiftconductor', '', '\\#com.swiftconductor', '\\#')
             licenseHeaderFile("$rootDir/licenseheader.txt")
+        }
+    }
+}
+
+configure(allprojects) {
+    // see: 
+    // https://plugins.gradle.org/plugin/com.netflix.nebula.contacts
+    // https://github.com/nebula-plugins/gradle-contacts-plugin
+    apply plugin: 'com.netflix.nebula.contacts'
+
+    contacts {
+        'hello@swiftsoftwaregroup.com' {
+            github 'swift-conductor'
+            moniker 'Swift Software Group'
         }
     }
 }

@@ -5,8 +5,8 @@
         }
     },
     "compileClasspath": {
-        "com.netflix.conductor:conductor-core": {
-            "locked": "3.15.0"
+        "com.swiftconductor:conductor-core": {
+            "locked": "3.16.0-SNAPSHOT"
         },
         "org.apache.commons:commons-lang3": {
             "locked": "3.12.0"
@@ -34,8 +34,8 @@
         }
     },
     "runtimeClasspath": {
-        "com.netflix.conductor:conductor-core": {
-            "locked": "3.15.0"
+        "com.swiftconductor:conductor-core": {
+            "locked": "3.16.0-SNAPSHOT"
         },
         "org.apache.commons:commons-lang3": {
             "locked": "3.12.0"
@@ -60,8 +60,8 @@
         }
     },
     "testCompileClasspath": {
-        "com.netflix.conductor:conductor-core": {
-            "locked": "3.15.0"
+        "com.swiftconductor:conductor-core": {
+            "locked": "3.16.0-SNAPSHOT"
         },
         "junit:junit": {
             "locked": "4.13.2"
@@ -101,8 +101,8 @@
         }
     },
     "testRuntimeClasspath": {
-        "com.netflix.conductor:conductor-core": {
-            "locked": "3.15.0"
+        "com.swiftconductor:conductor-core": {
+            "locked": "3.16.0-SNAPSHOT"
         },
         "junit:junit": {
             "locked": "4.13.2"

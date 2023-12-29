@@ -12,7 +12,7 @@ support the following:
 
 ## Published Artifacts
 
-Group: `com.netflix.conductor`
+Group: `com.swiftconductor`
 
 | Published Artifact | Description |
 | ----------- | ----------- | 

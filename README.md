@@ -23,9 +23,9 @@ the modules contributed by community.
 
 ## Repository Structure and Published Artifacts
 
-Binaries are available from the [Maven Central Repository](https://search.maven.org/search?q=g:com.netflix.conductor).
+Binaries are available from the [Maven Central Repository](https://search.maven.org/search?q=g:com.swiftconductor).
 
-Binaries are published under the group: **com.netflix.conductor**
+Binaries are published under the group: **com.swiftconductor**
 
 For the list of artifacts published please see the table below:
 

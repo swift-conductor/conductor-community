@@ -5,7 +5,7 @@ Workflow Event listeners can be configured for the purpose in Conductor:
 
 ## Published Artifacts
 
-Group: `com.netflix.conductor`
+Group: `com.swiftconductor`
 
 | Published Artifact | Description |
 | ----------- | ----------- | 
@@ -32,7 +32,7 @@ conductor.workflow-status-listener.archival.delayQueueWorkerThreadCount=5
 ```
 
 ### Queue publisher
-Publish a summary of workflow [WorkflowSummary](https://github.com/swift-conductor/conductor/blob/main/common/src/main/java/com/netflix/conductor/common/run/WorkflowSummary.java) 
+Publish a summary of workflow [WorkflowSummary](https://github.com/swift-conductor/conductor/blob/main/common/src/main/java/com/swiftconductor/conductor/common/run/WorkflowSummary.java) 
 to a queue as the workflow gets completed.
 
 ```properties

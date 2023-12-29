@@ -1,7 +1,7 @@
 # Event Queue
 ## Published Artifacts
 
-Group: `com.netflix.conductor`
+Group: `com.swiftconductor`
 
 | Published Artifact | Description |
 | ----------- | ----------- | 
@@ -29,7 +29,7 @@ conductor.event-queues.amqp.connectionTimeout=60000
 conductor.event-queues.amqp.useExchange=true
 conductor.event-queues.amqp.listenerQueuePrefix=
 ```
-For advanced configurations, see [AMQPEventQueueProperties](amqp/src/main/java/com/netflix/conductor/contribs/queue/amqp/config/AMQPEventQueueProperties.java)
+For advanced configurations, see [AMQPEventQueueProperties](amqp/src/main/java/com/swiftconductor/conductor/contribs/queue/amqp/config/AMQPEventQueueProperties.java)
 
 ### NATS
 https://nats.io/

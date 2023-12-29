@@ -50,25 +50,25 @@
       "name": "conductor.event-queues.sqs.enabled",
       "type": "java.lang.Boolean",
       "description": "Enable the use of AWS SQS implementation to provide queues for consuming events.",
-      "sourceType": "com.netflix.conductor.contribs.queue.sqs.config.SQSEventQueueConfiguration"
+      "sourceType": "com.swiftconductor.contribs.queue.sqs.config.SQSEventQueueConfiguration"
     },
     {
       "name": "conductor.event-queues.amqp.enabled",
       "type": "java.lang.Boolean",
       "description": "Enable the use of RabbitMQ implementation to provide queues for consuming events.",
-      "sourceType": "com.netflix.conductor.contribs.queue.amqp.config.AMQPEventQueueConfiguration"
+      "sourceType": "com.swiftconductor.contribs.queue.amqp.config.AMQPEventQueueConfiguration"
     },
     {
       "name": "conductor.event-queues.nats.enabled",
       "type": "java.lang.Boolean",
       "description": "Enable the use of NATS implementation to provide queues for consuming events.",
-      "sourceType": "com.netflix.conductor.contribs.queue.nats.config.NATSConfiguration"
+      "sourceType": "com.swiftconductor.contribs.queue.nats.config.NATSConfiguration"
     },
     {
       "name": "conductor.event-queues.nats-stream.enabled",
       "type": "java.lang.Boolean",
       "description": "Enable the use of NATS Streaming implementation to provide queues for consuming events.",
-      "sourceType": "com.netflix.conductor.contribs.queue.nats.config.NATSStreamConfiguration"
+      "sourceType": "com.swiftconductor.contribs.queue.nats.config.NATSStreamConfiguration"
     },
     {
       "name": "conductor.default-event-queue.type",

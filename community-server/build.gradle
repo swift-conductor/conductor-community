@@ -64,7 +64,7 @@ jar {
 }
 
 bootJar {
-    mainClass = 'com.swiftconductor.Conductor'
+    mainClass = 'com.swiftconductor.conductor.Conductor'
     classifier = 'boot'
 }
 

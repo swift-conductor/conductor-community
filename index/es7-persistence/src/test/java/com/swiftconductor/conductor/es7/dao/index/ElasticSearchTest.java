@@ -1,4 +1,6 @@
 /*
+ * Copyright 2023 Swift Conductor Community Contributors.
+ * (Code and content before December 13, 2023, Copyright Netflix Conductor Community Contributors.)
  * <p>
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with
  * the License. You may obtain a copy of the License at
@@ -31,8 +33,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @ContextConfiguration(
         classes = {TestObjectMapperConfiguration.class, ElasticSearchTest.TestConfiguration.class})
 @RunWith(SpringRunner.class)
-// @TestPropertySource(
-//         properties = {"conductor.indexing.enabled=true", "conductor.elasticsearch.version=7"})
 @TestPropertySource(locations = "classpath:application-test.properties")
 public abstract class ElasticSearchTest {
 

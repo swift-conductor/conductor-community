@@ -1,4 +1,6 @@
 /*
+ * Copyright 2023 Swift Conductor Community Contributors.
+ * (Code and content before December 13, 2023, Copyright Netflix Conductor Community Contributors.)
  * <p>
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with
  * the License. You may obtain a copy of the License at
@@ -19,6 +21,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 import org.apache.http.HttpHost;
@@ -47,7 +50,11 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 
 @TestPropertySource(
-        properties = {"conductor.indexing.enabled=true", "conductor.elasticsearch.version=6"})
+        properties = {
+            "conductor.indexing.enabled=true",
+            "conductor.elasticsearch.version=6",
+            "conductor.elasticsearch.clusterHealthColor=yellow"
+        })
 public abstract class AbstractEndToEndTest {
 
     private static final Logger log = LoggerFactory.getLogger(AbstractEndToEndTest.class);
@@ -60,8 +67,11 @@ public abstract class AbstractEndToEndTest {
 
     private static final ElasticsearchContainer container =
             new ElasticsearchContainer(
-                    DockerImageName.parse("docker.elastic.co/elasticsearch/elasticsearch")
-                            .withTag("7.17.16")); // this should match the client version
+                            DockerImageName.parse(
+                                            "docker.elastic.co/elasticsearch/elasticsearch-oss")
+                                    .withTag("6.8.17"))
+                    // Resolve issue with es container not starting on m1/m2 macs
+                    .withEnv(Map.of("bootstrap.system_call_filter", "false"));
 
     private static RestClient restClient;
 

@@ -8,10 +8,10 @@
         "com.google.guava:guava": {
             "locked": "32.1.2-jre"
         },
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-common": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "io.reactivex:rxjava": {
@@ -58,10 +58,10 @@
         "com.google.guava:guava": {
             "locked": "32.1.2-jre"
         },
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-common": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "io.reactivex:rxjava": {
@@ -96,14 +96,14 @@
         "com.google.guava:guava": {
             "locked": "32.1.2-jre"
         },
+        "com.swiftconductor.conductor:conductor-common": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor.conductor:conductor-core": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
         "com.swiftconductor.conductor:conductor-test-util": {
             "project": true
-        },
-        "com.swiftconductor:conductor-common": {
-            "locked": "3.16.0-SNAPSHOT"
-        },
-        "com.swiftconductor:conductor-core": {
-            "locked": "3.16.0-SNAPSHOT"
         },
         "io.reactivex:rxjava": {
             "locked": "1.2.2"
@@ -160,7 +160,7 @@
             "locked": "2.7.16"
         },
         "org.testcontainers:mockserver": {
-            "locked": "1.18.3"
+            "locked": "1.19.3"
         }
     },
     "testRuntimeClasspath": {
@@ -200,56 +200,56 @@
             ],
             "locked": "5.14.3"
         },
+        "com.swiftconductor.conductor:conductor-client": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor.conductor:conductor-common": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor.conductor:conductor-core": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor.conductor:conductor-grpc-client": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor.conductor:conductor-grpc-server": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor.conductor:conductor-redis-persistence": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor.conductor:conductor-rest": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor.conductor:conductor-server": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
+            "locked": "3.16.0-SNAPSHOT"
+        },
         "com.swiftconductor.conductor:conductor-test-util": {
             "project": true
-        },
-        "com.swiftconductor:conductor-client": {
-            "firstLevelTransitive": [
-                "com.swiftconductor.conductor:conductor-test-util"
-            ],
-            "locked": "3.16.0-SNAPSHOT"
-        },
-        "com.swiftconductor:conductor-common": {
-            "firstLevelTransitive": [
-                "com.swiftconductor.conductor:conductor-test-util"
-            ],
-            "locked": "3.16.0-SNAPSHOT"
-        },
-        "com.swiftconductor:conductor-core": {
-            "firstLevelTransitive": [
-                "com.swiftconductor.conductor:conductor-test-util"
-            ],
-            "locked": "3.16.0-SNAPSHOT"
-        },
-        "com.swiftconductor:conductor-grpc-client": {
-            "firstLevelTransitive": [
-                "com.swiftconductor.conductor:conductor-test-util"
-            ],
-            "locked": "3.16.0-SNAPSHOT"
-        },
-        "com.swiftconductor:conductor-grpc-server": {
-            "firstLevelTransitive": [
-                "com.swiftconductor.conductor:conductor-test-util"
-            ],
-            "locked": "3.16.0-SNAPSHOT"
-        },
-        "com.swiftconductor:conductor-redis-persistence": {
-            "firstLevelTransitive": [
-                "com.swiftconductor.conductor:conductor-test-util"
-            ],
-            "locked": "3.16.0-SNAPSHOT"
-        },
-        "com.swiftconductor:conductor-rest": {
-            "firstLevelTransitive": [
-                "com.swiftconductor.conductor:conductor-test-util"
-            ],
-            "locked": "3.16.0-SNAPSHOT"
-        },
-        "com.swiftconductor:conductor-server": {
-            "firstLevelTransitive": [
-                "com.swiftconductor.conductor:conductor-test-util"
-            ],
-            "locked": "3.16.0-SNAPSHOT"
         },
         "io.reactivex:rxjava": {
             "locked": "1.2.2"
@@ -309,13 +309,13 @@
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-test-util"
             ],
-            "locked": "7.17.16"
+            "locked": "7.17.13"
         },
         "org.elasticsearch.client:elasticsearch-rest-high-level-client": {
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-test-util"
             ],
-            "locked": "7.17.16"
+            "locked": "7.17.13"
         },
         "org.junit.vintage:junit-vintage-engine": {
             "locked": "5.8.2"
@@ -354,22 +354,22 @@
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-test-util"
             ],
-            "locked": "1.18.3"
+            "locked": "1.19.3"
         },
         "org.testcontainers:mockserver": {
-            "locked": "1.18.3"
+            "locked": "1.19.3"
         },
         "org.testcontainers:mysql": {
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-test-util"
             ],
-            "locked": "1.18.3"
+            "locked": "1.19.3"
         },
         "org.testcontainers:postgresql": {
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-test-util"
             ],
-            "locked": "1.18.3"
+            "locked": "1.19.3"
         },
         "redis.clients:jedis": {
             "firstLevelTransitive": [

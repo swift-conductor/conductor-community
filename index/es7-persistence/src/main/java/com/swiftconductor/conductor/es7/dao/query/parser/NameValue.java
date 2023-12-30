@@ -1,4 +1,6 @@
 /*
+ * Copyright 2023 Swift Conductor Community Contributors.
+ * (Code and content before December 13, 2023, Copyright Netflix Conductor Community Contributors.)
  * <p>
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with
  * the License. You may obtain a copy of the License at
@@ -9,21 +11,21 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.es7.dao.query.parser;
+package com.swiftconductor.conductor.es7.dao.query.parser;
 
 import java.io.InputStream;
 
 import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 
-import com.swiftconductor.es7.dao.query.parser.internal.AbstractNode;
-import com.swiftconductor.es7.dao.query.parser.internal.ComparisonOp;
-import com.swiftconductor.es7.dao.query.parser.internal.ComparisonOp.Operators;
-import com.swiftconductor.es7.dao.query.parser.internal.ConstValue;
-import com.swiftconductor.es7.dao.query.parser.internal.ListConst;
-import com.swiftconductor.es7.dao.query.parser.internal.Name;
-import com.swiftconductor.es7.dao.query.parser.internal.ParserException;
-import com.swiftconductor.es7.dao.query.parser.internal.Range;
+import com.swiftconductor.conductor.es7.dao.query.parser.internal.AbstractNode;
+import com.swiftconductor.conductor.es7.dao.query.parser.internal.ComparisonOp;
+import com.swiftconductor.conductor.es7.dao.query.parser.internal.ComparisonOp.Operators;
+import com.swiftconductor.conductor.es7.dao.query.parser.internal.ConstValue;
+import com.swiftconductor.conductor.es7.dao.query.parser.internal.ListConst;
+import com.swiftconductor.conductor.es7.dao.query.parser.internal.Name;
+import com.swiftconductor.conductor.es7.dao.query.parser.internal.ParserException;
+import com.swiftconductor.conductor.es7.dao.query.parser.internal.Range;
 
 /**
  * @author Viren

@@ -1,4 +1,6 @@
 /*
+ * Copyright 2023 Swift Conductor Community Contributors.
+ * (Code and content before December 13, 2023, Copyright Netflix Conductor Community Contributors.)
  * <p>
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with
  * the License. You may obtain a copy of the License at
@@ -9,15 +11,15 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.contribs.listener.archive;
+package com.swiftconductor.conductor.contribs.listener.archive;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.swiftconductor.core.dal.ExecutionDAOFacade;
-import com.swiftconductor.core.listener.WorkflowStatusListener;
-import com.swiftconductor.metrics.Monitors;
-import com.swiftconductor.model.WorkflowModel;
+import com.swiftconductor.conductor.core.dal.ExecutionDAOFacade;
+import com.swiftconductor.conductor.core.listener.WorkflowStatusListener;
+import com.swiftconductor.conductor.metrics.Monitors;
+import com.swiftconductor.conductor.model.WorkflowModel;
 
 /**
  * Provides default implementation of workflow archiving immediately after workflow is completed or

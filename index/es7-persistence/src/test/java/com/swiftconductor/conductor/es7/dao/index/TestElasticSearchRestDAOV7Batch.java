@@ -1,4 +1,6 @@
 /*
+ * Copyright 2023 Swift Conductor Community Contributors.
+ * (Code and content before December 13, 2023, Copyright Netflix Conductor Community Contributors.)
  * <p>
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with
  * the License. You may obtain a copy of the License at
@@ -9,7 +11,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.es7.dao.index;
+package com.swiftconductor.conductor.es7.dao.index;
 
 import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
@@ -17,9 +19,9 @@ import java.util.concurrent.TimeUnit;
 import org.junit.Test;
 import org.springframework.test.context.TestPropertySource;
 
-import com.swiftconductor.common.metadata.tasks.Task.Status;
-import com.swiftconductor.common.run.SearchResult;
-import com.swiftconductor.common.run.TaskSummary;
+import com.swiftconductor.conductor.common.metadata.tasks.Task.Status;
+import com.swiftconductor.conductor.common.run.SearchResult;
+import com.swiftconductor.conductor.common.run.TaskSummary;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 

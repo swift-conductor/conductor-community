@@ -1,4 +1,6 @@
 /*
+ * Copyright 2023 Swift Conductor Community Contributors.
+ * (Code and content before December 13, 2023, Copyright Netflix Conductor Community Contributors.)
  * <p>
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with
  * the License. You may obtain a copy of the License at
@@ -9,7 +11,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.es7.dao.index;
+package com.swiftconductor.conductor.es7.dao.index;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
@@ -23,16 +25,15 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.testcontainers.elasticsearch.ElasticsearchContainer;
 import org.testcontainers.utility.DockerImageName;
 
-import com.swiftconductor.common.config.TestObjectMapperConfiguration;
-import com.swiftconductor.es7.config.ElasticSearchProperties;
+import com.swiftconductor.conductor.common.config.TestObjectMapperConfiguration;
+import com.swiftconductor.conductor.es7.config.ElasticSearchProperties;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @ContextConfiguration(
         classes = {TestObjectMapperConfiguration.class, ElasticSearchTest.TestConfiguration.class})
 @RunWith(SpringRunner.class)
-@TestPropertySource(
-        properties = {"conductor.indexing.enabled=true", "conductor.elasticsearch.version=7"})
+@TestPropertySource(locations = "classpath:application-test.properties")
 public abstract class ElasticSearchTest {
 
     @Configuration

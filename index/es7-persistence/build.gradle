@@ -14,8 +14,8 @@ ext['elasticsearch.version'] = revElasticSearch7
 dependencies {
 
     implementation project(':persistence:conductor-common-persistence')
-    implementation "com.swiftconductor:conductor-common:${revConductor}"
-    implementation "com.swiftconductor:conductor-core:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-common:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-core:${revConductor}"
 
 
     compileOnly 'org.springframework.boot:spring-boot-starter'

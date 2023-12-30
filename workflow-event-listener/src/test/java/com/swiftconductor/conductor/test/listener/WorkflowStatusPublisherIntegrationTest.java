@@ -1,4 +1,6 @@
 /*
+ * Copyright 2023 Swift Conductor Community Contributors.
+ * (Code and content before December 13, 2023, Copyright Netflix Conductor Community Contributors.)
  * <p>
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with
  * the License. You may obtain a copy of the License at
@@ -9,7 +11,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.test.listener;
+package com.swiftconductor.conductor.test.listener;
 
 import java.io.IOException;
 import java.util.Collections;
@@ -28,23 +30,23 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.swiftconductor.common.metadata.tasks.Task;
-import com.swiftconductor.common.metadata.tasks.TaskDef;
-import com.swiftconductor.common.metadata.tasks.TaskResult;
-import com.swiftconductor.common.metadata.workflow.StartWorkflowRequest;
-import com.swiftconductor.common.metadata.workflow.WorkflowDef;
-import com.swiftconductor.common.metadata.workflow.WorkflowTask;
-import com.swiftconductor.common.run.Workflow;
-import com.swiftconductor.common.run.WorkflowSummary;
-import com.swiftconductor.core.events.queue.Message;
-import com.swiftconductor.dao.QueueDAO;
-import com.swiftconductor.service.ExecutionService;
-import com.swiftconductor.service.MetadataService;
-import com.swiftconductor.service.WorkflowService;
+import com.swiftconductor.conductor.common.metadata.tasks.Task;
+import com.swiftconductor.conductor.common.metadata.tasks.TaskDef;
+import com.swiftconductor.conductor.common.metadata.tasks.TaskResult;
+import com.swiftconductor.conductor.common.metadata.workflow.StartWorkflowRequest;
+import com.swiftconductor.conductor.common.metadata.workflow.WorkflowDef;
+import com.swiftconductor.conductor.common.metadata.workflow.WorkflowTask;
+import com.swiftconductor.conductor.common.run.Workflow;
+import com.swiftconductor.conductor.common.run.WorkflowSummary;
+import com.swiftconductor.conductor.core.events.queue.Message;
+import com.swiftconductor.conductor.dao.QueueDAO;
+import com.swiftconductor.conductor.service.ExecutionService;
+import com.swiftconductor.conductor.service.MetadataService;
+import com.swiftconductor.conductor.service.WorkflowService;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import static com.swiftconductor.common.metadata.tasks.Task.Status.COMPLETED;
+import static com.swiftconductor.conductor.common.metadata.tasks.Task.Status.COMPLETED;
 
 import static org.junit.Assert.assertEquals;
 

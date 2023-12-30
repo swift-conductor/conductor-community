@@ -1,4 +1,6 @@
 /*
+ * Copyright 2023 Swift Conductor Community Contributors.
+ * (Code and content before December 13, 2023, Copyright Netflix Conductor Community Contributors.)
  * <p>
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with
  * the License. You may obtain a copy of the License at
@@ -9,7 +11,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.mysql.config;
+package com.swiftconductor.conductor.mysql.config;
 
 import java.sql.SQLException;
 import java.util.Optional;
@@ -29,9 +31,9 @@ import org.springframework.retry.backoff.NoBackOffPolicy;
 import org.springframework.retry.policy.SimpleRetryPolicy;
 import org.springframework.retry.support.RetryTemplate;
 
-import com.swiftconductor.mysql.dao.MySQLExecutionDAO;
-import com.swiftconductor.mysql.dao.MySQLMetadataDAO;
-import com.swiftconductor.mysql.dao.MySQLQueueDAO;
+import com.swiftconductor.conductor.mysql.dao.MySQLExecutionDAO;
+import com.swiftconductor.conductor.mysql.dao.MySQLMetadataDAO;
+import com.swiftconductor.conductor.mysql.dao.MySQLQueueDAO;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

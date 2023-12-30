@@ -1,4 +1,6 @@
 /*
+ * Copyright 2023 Swift Conductor Community Contributors.
+ * (Code and content before December 13, 2023, Copyright Netflix Conductor Community Contributors.)
  * <p>
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with
  * the License. You may obtain a copy of the License at
@@ -9,7 +11,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.contribs.listener;
+package com.swiftconductor.conductor.contribs.listener;
 
 import java.util.UUID;
 
@@ -17,10 +19,10 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 
-import com.swiftconductor.common.metadata.workflow.WorkflowDef;
-import com.swiftconductor.contribs.listener.archive.ArchivingWorkflowStatusListener;
-import com.swiftconductor.core.dal.ExecutionDAOFacade;
-import com.swiftconductor.model.WorkflowModel;
+import com.swiftconductor.conductor.common.metadata.workflow.WorkflowDef;
+import com.swiftconductor.conductor.contribs.listener.archive.ArchivingWorkflowStatusListener;
+import com.swiftconductor.conductor.core.dal.ExecutionDAOFacade;
+import com.swiftconductor.conductor.model.WorkflowModel;
 
 import static org.mockito.Mockito.*;
 

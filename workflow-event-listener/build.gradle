@@ -3,8 +3,8 @@ plugins {
 }
 dependencies {
 
-    implementation "com.swiftconductor:conductor-common:${revConductor}"
-    implementation "com.swiftconductor:conductor-core:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-common:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-core:${revConductor}"
 
     compileOnly 'org.springframework.boot:spring-boot-starter'
     compileOnly 'org.springframework.boot:spring-boot-starter-web'
@@ -14,7 +14,7 @@ dependencies {
     testImplementation "org.spockframework:spock-spring:${revSpock}"
 
 
-    testImplementation "com.swiftconductor:conductor-server:${revConductor}"
+    testImplementation "com.swiftconductor.conductor:conductor-server:${revConductor}"
     testImplementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation project(':conductor-test-util').sourceSets.test.output
 }

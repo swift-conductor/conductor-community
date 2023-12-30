@@ -1,7 +1,7 @@
 dependencies {
     compileOnly 'org.springframework.boot:spring-boot-starter'
-    implementation "com.swiftconductor:conductor-common:${revConductor}"
-    implementation "com.swiftconductor:conductor-core:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-common:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-core:${revConductor}"
 
     implementation "com.azure:azure-storage-blob:${revAzureStorageBlobSdk}"
     implementation "org.apache.commons:commons-lang3"

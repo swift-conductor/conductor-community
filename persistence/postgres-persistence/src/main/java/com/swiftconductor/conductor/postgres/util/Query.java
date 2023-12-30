@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.postgres.util;
+package com.swiftconductor.conductor.postgres.util;
 
 import java.io.IOException;
 import java.sql.*;
@@ -21,7 +21,7 @@ import org.apache.commons.lang3.math.NumberUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.swiftconductor.core.exception.NonTransientException;
+import com.swiftconductor.conductor.core.exception.NonTransientException;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

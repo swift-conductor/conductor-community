@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.postgres.dao;
+package com.swiftconductor.conductor.postgres.dao;
 
 import java.util.List;
 
@@ -24,12 +24,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.swiftconductor.common.config.TestObjectMapperConfiguration;
-import com.swiftconductor.common.metadata.workflow.WorkflowDef;
-import com.swiftconductor.dao.ExecutionDAO;
-import com.swiftconductor.dao.ExecutionDAOTest;
-import com.swiftconductor.model.WorkflowModel;
-import com.swiftconductor.postgres.config.PostgresConfiguration;
+import com.swiftconductor.conductor.common.config.TestObjectMapperConfiguration;
+import com.swiftconductor.conductor.common.metadata.workflow.WorkflowDef;
+import com.swiftconductor.conductor.dao.ExecutionDAO;
+import com.swiftconductor.conductor.dao.ExecutionDAOTest;
+import com.swiftconductor.conductor.model.WorkflowModel;
+import com.swiftconductor.conductor.postgres.config.PostgresConfiguration;
 
 import com.google.common.collect.Iterables;
 

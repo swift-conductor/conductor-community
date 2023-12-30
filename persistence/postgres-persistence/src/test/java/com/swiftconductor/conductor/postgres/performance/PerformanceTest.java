@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.postgres.performance;
+package com.swiftconductor.conductor.postgres.performance;
 
 // SBMTODO: this test needs to be migrated
 // reference - https://github.com/Netflix/conductor/pull/1940

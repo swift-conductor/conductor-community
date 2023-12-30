@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.es7.config;
+package com.swiftconductor.conductor.es7.config;
 
 import java.net.URL;
 import java.util.List;
@@ -32,8 +32,8 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.retry.backoff.FixedBackOffPolicy;
 import org.springframework.retry.support.RetryTemplate;
 
-import com.swiftconductor.dao.IndexDAO;
-import com.swiftconductor.es7.dao.index.ElasticSearchRestDAOV7;
+import com.swiftconductor.conductor.dao.IndexDAO;
+import com.swiftconductor.conductor.es7.dao.index.ElasticSearchRestDAOV7;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.postgres.controller;
+package com.swiftconductor.conductor.postgres.controller;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -21,7 +21,7 @@ import org.junit.Test;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.ResponseEntity;
 
-import com.swiftconductor.postgres.storage.PostgresPayloadStorage;
+import com.swiftconductor.conductor.postgres.storage.PostgresPayloadStorage;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;

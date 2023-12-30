@@ -5,7 +5,7 @@
         }
     },
     "compileClasspath": {
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "org.apache.commons:commons-lang3": {
@@ -34,7 +34,7 @@
         }
     },
     "runtimeClasspath": {
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "org.apache.commons:commons-lang3": {
@@ -60,7 +60,7 @@
         }
     },
     "testCompileClasspath": {
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "junit:junit": {
@@ -101,7 +101,7 @@
         }
     },
     "testRuntimeClasspath": {
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "junit:junit": {

@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.mysql.dao;
+package com.swiftconductor.conductor.mysql.dao;
 
 import java.sql.Connection;
 import java.util.ArrayList;
@@ -33,10 +33,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.swiftconductor.common.config.TestObjectMapperConfiguration;
-import com.swiftconductor.core.events.queue.Message;
-import com.swiftconductor.mysql.config.MySQLConfiguration;
-import com.swiftconductor.mysql.util.Query;
+import com.swiftconductor.conductor.common.config.TestObjectMapperConfiguration;
+import com.swiftconductor.conductor.core.events.queue.Message;
+import com.swiftconductor.conductor.mysql.config.MySQLConfiguration;
+import com.swiftconductor.conductor.mysql.util.Query;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.collect.ImmutableList;

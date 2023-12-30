@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.contribs.metrics;
+package com.swiftconductor.conductor.contribs.metrics;
 
 import java.util.concurrent.TimeUnit;
 
@@ -21,7 +21,7 @@ import org.springframework.context.annotation.Import;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.swiftconductor.contribs.metrics.LoggingMetricsConfiguration.Slf4jReporterProvider;
+import com.swiftconductor.conductor.contribs.metrics.LoggingMetricsConfiguration.Slf4jReporterProvider;
 
 import com.codahale.metrics.MetricRegistry;
 

@@ -11,10 +11,10 @@
         "com.rabbitmq:amqp-client": {
             "locked": "5.13.0"
         },
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-common": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "io.reactivex:rxjava": {
@@ -52,10 +52,10 @@
         "com.rabbitmq:amqp-client": {
             "locked": "5.13.0"
         },
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-common": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "io.reactivex:rxjava": {
@@ -87,10 +87,10 @@
         "com.rabbitmq:amqp-client": {
             "locked": "5.13.0"
         },
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-common": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "io.reactivex:rxjava": {
@@ -134,10 +134,10 @@
         "com.rabbitmq:amqp-client": {
             "locked": "5.13.0"
         },
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-common": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "io.reactivex:rxjava": {

@@ -8,10 +8,10 @@
         "com.google.guava:guava": {
             "locked": "32.1.2-jre"
         },
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-common": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "io.nats:jnats": {
@@ -49,10 +49,10 @@
         "com.google.guava:guava": {
             "locked": "32.1.2-jre"
         },
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-common": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "io.nats:jnats": {
@@ -84,10 +84,10 @@
         "com.google.guava:guava": {
             "locked": "32.1.2-jre"
         },
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-common": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "io.nats:jnats": {
@@ -131,10 +131,10 @@
         "com.google.guava:guava": {
             "locked": "32.1.2-jre"
         },
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-common": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "io.nats:jnats": {

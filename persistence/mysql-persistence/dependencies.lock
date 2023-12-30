@@ -14,13 +14,13 @@
         "com.google.guava:guava": {
             "locked": "32.1.2-jre"
         },
+        "com.swiftconductor.conductor:conductor-common": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
         "com.swiftconductor.conductor:conductor-common-persistence": {
             "project": true
         },
-        "com.swiftconductor:conductor-common": {
-            "locked": "3.16.0-SNAPSHOT"
-        },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "mysql:mysql-connector-java": {
@@ -73,16 +73,16 @@
         "com.google.guava:guava": {
             "locked": "32.1.2-jre"
         },
-        "com.swiftconductor.conductor:conductor-common-persistence": {
-            "project": true
-        },
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-common": {
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-common-persistence"
             ],
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-common-persistence": {
+            "project": true
+        },
+        "com.swiftconductor.conductor:conductor-core": {
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-common-persistence"
             ],
@@ -144,25 +144,25 @@
         "com.google.guava:guava": {
             "locked": "32.1.2-jre"
         },
+        "com.swiftconductor.conductor:conductor-client": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor.conductor:conductor-common": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
         "com.swiftconductor.conductor:conductor-common-persistence": {
             "project": true
         },
-        "com.swiftconductor:conductor-client": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-es6-persistence": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-grpc-client": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-es6-persistence": {
-            "locked": "3.16.0-SNAPSHOT"
-        },
-        "com.swiftconductor:conductor-grpc-client": {
-            "locked": "3.16.0-SNAPSHOT"
-        },
-        "com.swiftconductor:conductor-server": {
+        "com.swiftconductor.conductor:conductor-server": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "junit:junit": {
@@ -220,10 +220,10 @@
             "locked": "2.7.16"
         },
         "org.testcontainers:elasticsearch": {
-            "locked": "1.18.3"
+            "locked": "1.19.3"
         },
         "org.testcontainers:mysql": {
-            "locked": "1.18.3"
+            "locked": "1.19.3"
         }
     },
     "testRuntimeClasspath": {
@@ -242,31 +242,31 @@
         "com.google.guava:guava": {
             "locked": "32.1.2-jre"
         },
+        "com.swiftconductor.conductor:conductor-client": {
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor.conductor:conductor-common": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-common-persistence"
+            ],
+            "locked": "3.16.0-SNAPSHOT"
+        },
         "com.swiftconductor.conductor:conductor-common-persistence": {
             "project": true
         },
-        "com.swiftconductor:conductor-client": {
-            "locked": "3.16.0-SNAPSHOT"
-        },
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-core": {
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-common-persistence"
             ],
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
-            "firstLevelTransitive": [
-                "com.swiftconductor.conductor:conductor-common-persistence"
-            ],
+        "com.swiftconductor.conductor:conductor-es6-persistence": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-es6-persistence": {
+        "com.swiftconductor.conductor:conductor-grpc-client": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-grpc-client": {
-            "locked": "3.16.0-SNAPSHOT"
-        },
-        "com.swiftconductor:conductor-server": {
+        "com.swiftconductor.conductor:conductor-server": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "junit:junit": {
@@ -342,10 +342,10 @@
             "locked": "2.7.16"
         },
         "org.testcontainers:elasticsearch": {
-            "locked": "1.18.3"
+            "locked": "1.19.3"
         },
         "org.testcontainers:mysql": {
-            "locked": "1.18.3"
+            "locked": "1.19.3"
         }
     }
 }

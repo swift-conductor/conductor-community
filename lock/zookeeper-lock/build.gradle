@@ -1,5 +1,5 @@
 dependencies {
-    implementation "com.swiftconductor:conductor-core:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-core:${revConductor}"
     compileOnly 'org.springframework.boot:spring-boot-starter'
 
     implementation "org.apache.commons:commons-lang3"

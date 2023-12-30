@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.postgres.dao;
+package com.swiftconductor.conductor.postgres.dao;
 
 import java.sql.Connection;
 import java.util.*;
@@ -23,10 +23,10 @@ import javax.sql.DataSource;
 
 import org.springframework.retry.support.RetryTemplate;
 
-import com.swiftconductor.core.events.queue.Message;
-import com.swiftconductor.dao.QueueDAO;
-import com.swiftconductor.postgres.util.ExecutorsUtil;
-import com.swiftconductor.postgres.util.Query;
+import com.swiftconductor.conductor.core.events.queue.Message;
+import com.swiftconductor.conductor.dao.QueueDAO;
+import com.swiftconductor.conductor.postgres.util.ExecutorsUtil;
+import com.swiftconductor.conductor.postgres.util.Query;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.collect.ImmutableMap;

@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.es7.dao.index;
+package com.swiftconductor.conductor.es7.dao.index;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -21,9 +21,9 @@ import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.index.query.QueryStringQueryBuilder;
 
-import com.swiftconductor.dao.IndexDAO;
-import com.swiftconductor.es7.dao.query.parser.Expression;
-import com.swiftconductor.es7.dao.query.parser.internal.ParserException;
+import com.swiftconductor.conductor.dao.IndexDAO;
+import com.swiftconductor.conductor.es7.dao.query.parser.Expression;
+import com.swiftconductor.conductor.es7.dao.query.parser.internal.ParserException;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;

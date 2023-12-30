@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.contribs.queue.stan;
+package com.swiftconductor.conductor.contribs.queue.stan;
 
 import java.util.Collections;
 import java.util.LinkedList;
@@ -25,8 +25,8 @@ import java.util.concurrent.locks.ReentrantLock;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.swiftconductor.core.events.queue.Message;
-import com.swiftconductor.core.events.queue.ObservableQueue;
+import com.swiftconductor.conductor.core.events.queue.Message;
+import com.swiftconductor.conductor.core.events.queue.ObservableQueue;
 
 import io.nats.client.NUID;
 import rx.Observable;

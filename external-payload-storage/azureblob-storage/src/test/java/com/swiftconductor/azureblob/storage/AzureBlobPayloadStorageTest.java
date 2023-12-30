@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.azureblob.storage;
+package com.swiftconductor.conductor.azureblob.storage;
 
 import java.time.Duration;
 
@@ -18,11 +18,11 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
-import com.swiftconductor.azureblob.config.AzureBlobProperties;
-import com.swiftconductor.common.run.ExternalStorageLocation;
-import com.swiftconductor.common.utils.ExternalPayloadStorage;
-import com.swiftconductor.core.exception.NonTransientException;
-import com.swiftconductor.core.utils.IDGenerator;
+import com.swiftconductor.conductor.azureblob.config.AzureBlobProperties;
+import com.swiftconductor.conductor.common.run.ExternalStorageLocation;
+import com.swiftconductor.conductor.common.utils.ExternalPayloadStorage;
+import com.swiftconductor.conductor.core.exception.NonTransientException;
+import com.swiftconductor.conductor.core.utils.IDGenerator;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;

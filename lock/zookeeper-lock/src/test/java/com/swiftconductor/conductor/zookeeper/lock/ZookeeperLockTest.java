@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.zookeeper.lock;
+package com.swiftconductor.conductor.zookeeper.lock;
 
 import java.time.Duration;
 import java.util.concurrent.Semaphore;
@@ -23,9 +23,9 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.swiftconductor.core.sync.Lock;
-import com.swiftconductor.service.ExecutionLockService;
-import com.swiftconductor.zookeeper.config.ZookeeperProperties;
+import com.swiftconductor.conductor.core.sync.Lock;
+import com.swiftconductor.conductor.service.ExecutionLockService;
+import com.swiftconductor.conductor.zookeeper.config.ZookeeperProperties;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

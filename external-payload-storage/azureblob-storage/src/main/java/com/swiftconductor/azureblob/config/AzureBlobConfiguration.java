@@ -9,16 +9,16 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.azureblob.config;
+package com.swiftconductor.conductor.azureblob.config;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.swiftconductor.azureblob.storage.AzureBlobPayloadStorage;
-import com.swiftconductor.common.utils.ExternalPayloadStorage;
-import com.swiftconductor.core.utils.IDGenerator;
+import com.swiftconductor.conductor.azureblob.storage.AzureBlobPayloadStorage;
+import com.swiftconductor.conductor.common.utils.ExternalPayloadStorage;
+import com.swiftconductor.conductor.core.utils.IDGenerator;
 
 @Configuration(proxyBeanMethods = false)
 @EnableConfigurationProperties(AzureBlobProperties.class)

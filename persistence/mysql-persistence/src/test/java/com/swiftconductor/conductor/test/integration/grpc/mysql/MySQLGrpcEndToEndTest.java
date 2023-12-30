@@ -9,18 +9,18 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.test.integration.grpc.mysql;
+package com.swiftconductor.conductor.test.integration.grpc.mysql;
 
 import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.swiftconductor.client.grpc.EventClient;
-import com.swiftconductor.client.grpc.MetadataClient;
-import com.swiftconductor.client.grpc.TaskClient;
-import com.swiftconductor.client.grpc.WorkflowClient;
-import com.swiftconductor.test.integration.grpc.AbstractGrpcEndToEndTest;
+import com.swiftconductor.conductor.client.grpc.EventClient;
+import com.swiftconductor.conductor.client.grpc.MetadataClient;
+import com.swiftconductor.conductor.client.grpc.TaskClient;
+import com.swiftconductor.conductor.client.grpc.WorkflowClient;
+import com.swiftconductor.conductor.test.integration.grpc.AbstractGrpcEndToEndTest;
 
 @RunWith(SpringRunner.class)
 @TestPropertySource(

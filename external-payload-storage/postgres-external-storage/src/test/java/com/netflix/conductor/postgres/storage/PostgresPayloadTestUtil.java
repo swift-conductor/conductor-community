@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.postgres.storage;
+package com.swiftconductor.conductor.postgres.storage;
 
 import java.nio.file.Paths;
 import java.util.Map;
@@ -21,7 +21,7 @@ import org.flywaydb.core.api.configuration.FluentConfiguration;
 import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.testcontainers.containers.PostgreSQLContainer;
 
-import com.swiftconductor.postgres.config.PostgresPayloadProperties;
+import com.swiftconductor.conductor.postgres.config.PostgresPayloadProperties;
 
 public class PostgresPayloadTestUtil {
 

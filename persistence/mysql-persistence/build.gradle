@@ -1,8 +1,8 @@
 dependencies {
 
     implementation project(':persistence:conductor-common-persistence')
-    implementation "com.swiftconductor:conductor-common:${revConductor}"
-    implementation "com.swiftconductor:conductor-core:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-common:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-core:${revConductor}"
 
     compileOnly 'org.springframework.boot:spring-boot-starter'
     compileOnly 'org.springframework.retry:spring-retry'
@@ -28,10 +28,10 @@ dependencies {
 
     testImplementation "org.testcontainers:mysql:${revTestContainer}"
 
-    testImplementation "com.swiftconductor:conductor-server:${revConductor}"
-    testImplementation "com.swiftconductor:conductor-client:${revConductor}"
-    testImplementation "com.swiftconductor:conductor-grpc-client:${revConductor}"
-    testImplementation "com.swiftconductor:conductor-es6-persistence:${revConductor}"
+    testImplementation "com.swiftconductor.conductor:conductor-server:${revConductor}"
+    testImplementation "com.swiftconductor.conductor:conductor-client:${revConductor}"
+    testImplementation "com.swiftconductor.conductor:conductor-grpc-client:${revConductor}"
+    testImplementation "com.swiftconductor.conductor:conductor-es6-persistence:${revConductor}"
 
     //testImplementation "org.spockframework:spock-core:${revSpock}"
     //testImplementation "org.spockframework:spock-spring:${revSpock}"

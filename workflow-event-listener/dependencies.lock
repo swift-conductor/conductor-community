@@ -5,10 +5,10 @@
         }
     },
     "compileClasspath": {
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-common": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "org.apache.logging.log4j:log4j-api": {
@@ -34,10 +34,10 @@
         }
     },
     "runtimeClasspath": {
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-common": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "org.apache.logging.log4j:log4j-api": {
@@ -57,13 +57,13 @@
         }
     },
     "testCompileClasspath": {
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-common": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-server": {
+        "com.swiftconductor.conductor:conductor-server": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "junit:junit": {
@@ -107,13 +107,13 @@
         }
     },
     "testRuntimeClasspath": {
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-common": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-server": {
+        "com.swiftconductor.conductor:conductor-server": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "junit:junit": {

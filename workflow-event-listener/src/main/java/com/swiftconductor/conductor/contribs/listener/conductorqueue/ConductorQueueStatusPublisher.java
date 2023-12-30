@@ -9,18 +9,18 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.contribs.listener.conductorqueue;
+package com.swiftconductor.conductor.contribs.listener.conductorqueue;
 
 import java.util.Collections;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.swiftconductor.common.run.WorkflowSummary;
-import com.swiftconductor.core.events.queue.Message;
-import com.swiftconductor.core.listener.WorkflowStatusListener;
-import com.swiftconductor.dao.QueueDAO;
-import com.swiftconductor.model.WorkflowModel;
+import com.swiftconductor.conductor.common.run.WorkflowSummary;
+import com.swiftconductor.conductor.core.events.queue.Message;
+import com.swiftconductor.conductor.core.listener.WorkflowStatusListener;
+import com.swiftconductor.conductor.dao.QueueDAO;
+import com.swiftconductor.conductor.model.WorkflowModel;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

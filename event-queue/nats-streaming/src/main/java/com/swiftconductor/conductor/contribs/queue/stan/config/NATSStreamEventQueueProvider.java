@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.contribs.queue.stan.config;
+package com.swiftconductor.conductor.contribs.queue.stan.config;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -18,9 +18,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.lang.NonNull;
 
-import com.swiftconductor.contribs.queue.stan.NATSStreamObservableQueue;
-import com.swiftconductor.core.events.EventQueueProvider;
-import com.swiftconductor.core.events.queue.ObservableQueue;
+import com.swiftconductor.conductor.contribs.queue.stan.NATSStreamObservableQueue;
+import com.swiftconductor.conductor.core.events.EventQueueProvider;
+import com.swiftconductor.conductor.core.events.queue.ObservableQueue;
 
 import rx.Scheduler;
 

@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.contribs.queue.amqp;
+package com.swiftconductor.conductor.contribs.queue.amqp;
 
 import java.io.IOException;
 import java.security.KeyManagementException;
@@ -28,14 +28,14 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.swiftconductor.contribs.queue.amqp.config.AMQPEventQueueProperties;
-import com.swiftconductor.contribs.queue.amqp.config.AMQPRetryPattern;
-import com.swiftconductor.contribs.queue.amqp.util.AMQPConstants;
-import com.swiftconductor.contribs.queue.amqp.util.AMQPSettings;
-import com.swiftconductor.contribs.queue.amqp.util.ConnectionType;
-import com.swiftconductor.core.events.queue.Message;
-import com.swiftconductor.core.events.queue.ObservableQueue;
-import com.swiftconductor.metrics.Monitors;
+import com.swiftconductor.conductor.contribs.queue.amqp.config.AMQPEventQueueProperties;
+import com.swiftconductor.conductor.contribs.queue.amqp.config.AMQPRetryPattern;
+import com.swiftconductor.conductor.contribs.queue.amqp.util.AMQPConstants;
+import com.swiftconductor.conductor.contribs.queue.amqp.util.AMQPSettings;
+import com.swiftconductor.conductor.contribs.queue.amqp.util.ConnectionType;
+import com.swiftconductor.conductor.core.events.queue.Message;
+import com.swiftconductor.conductor.core.events.queue.ObservableQueue;
+import com.swiftconductor.conductor.metrics.Monitors;
 
 import com.google.common.collect.Maps;
 import com.rabbitmq.client.AMQP;

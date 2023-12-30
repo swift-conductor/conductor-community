@@ -14,10 +14,10 @@
         "com.netflix.spectator:spectator-reg-micrometer": {
             "locked": "0.122.0"
         },
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-common": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "io.micrometer:micrometer-registry-datadog": {
@@ -70,10 +70,10 @@
         "com.netflix.spectator:spectator-reg-micrometer": {
             "locked": "0.122.0"
         },
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-common": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "io.micrometer:micrometer-registry-datadog": {
@@ -120,10 +120,10 @@
         "com.netflix.spectator:spectator-reg-micrometer": {
             "locked": "0.122.0"
         },
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-common": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "io.micrometer:micrometer-registry-datadog": {
@@ -178,7 +178,7 @@
             "locked": "2.7.16"
         },
         "org.testcontainers:mockserver": {
-            "locked": "1.18.3"
+            "locked": "1.19.3"
         }
     },
     "testRuntimeClasspath": {
@@ -191,10 +191,10 @@
         "com.netflix.spectator:spectator-reg-micrometer": {
             "locked": "0.122.0"
         },
-        "com.swiftconductor:conductor-common": {
+        "com.swiftconductor.conductor:conductor-common": {
             "locked": "3.16.0-SNAPSHOT"
         },
-        "com.swiftconductor:conductor-core": {
+        "com.swiftconductor.conductor:conductor-core": {
             "locked": "3.16.0-SNAPSHOT"
         },
         "io.micrometer:micrometer-registry-datadog": {
@@ -249,7 +249,7 @@
             "locked": "2.7.16"
         },
         "org.testcontainers:mockserver": {
-            "locked": "1.18.3"
+            "locked": "1.19.3"
         }
     }
 }

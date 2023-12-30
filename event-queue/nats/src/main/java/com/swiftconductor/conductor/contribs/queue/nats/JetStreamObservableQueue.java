@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.contribs.queue.nats;
+package com.swiftconductor.conductor.contribs.queue.nats;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -24,9 +24,9 @@ import java.util.concurrent.locks.ReentrantLock;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.swiftconductor.contribs.queue.nats.config.JetStreamProperties;
-import com.swiftconductor.core.events.queue.Message;
-import com.swiftconductor.core.events.queue.ObservableQueue;
+import com.swiftconductor.conductor.contribs.queue.nats.config.JetStreamProperties;
+import com.swiftconductor.conductor.core.events.queue.Message;
+import com.swiftconductor.conductor.core.events.queue.ObservableQueue;
 
 import io.nats.client.Connection;
 import io.nats.client.ConnectionListener;

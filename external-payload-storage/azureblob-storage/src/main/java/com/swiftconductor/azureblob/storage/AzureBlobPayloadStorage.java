@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.azureblob.storage;
+package com.swiftconductor.conductor.azureblob.storage;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -22,11 +22,11 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.swiftconductor.azureblob.config.AzureBlobProperties;
-import com.swiftconductor.common.run.ExternalStorageLocation;
-import com.swiftconductor.common.utils.ExternalPayloadStorage;
-import com.swiftconductor.core.exception.NonTransientException;
-import com.swiftconductor.core.utils.IDGenerator;
+import com.swiftconductor.conductor.azureblob.config.AzureBlobProperties;
+import com.swiftconductor.conductor.common.run.ExternalStorageLocation;
+import com.swiftconductor.conductor.common.utils.ExternalPayloadStorage;
+import com.swiftconductor.conductor.core.exception.NonTransientException;
+import com.swiftconductor.conductor.core.utils.IDGenerator;
 
 import com.azure.core.exception.UnexpectedLengthException;
 import com.azure.core.util.Context;

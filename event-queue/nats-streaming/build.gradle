@@ -1,6 +1,6 @@
 dependencies {
-    implementation "com.swiftconductor:conductor-common:${revConductor}"
-    implementation "com.swiftconductor:conductor-core:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-common:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-core:${revConductor}"
 
     implementation "io.nats:java-nats-streaming:${revStan}"
     implementation "io.nats:jnats:${revNatsStreaming}"

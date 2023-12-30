@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.contribs.listener.archive;
+package com.swiftconductor.conductor.contribs.listener.archive;
 
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
@@ -19,10 +19,10 @@ import javax.annotation.PreDestroy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.swiftconductor.core.dal.ExecutionDAOFacade;
-import com.swiftconductor.core.listener.WorkflowStatusListener;
-import com.swiftconductor.metrics.Monitors;
-import com.swiftconductor.model.WorkflowModel;
+import com.swiftconductor.conductor.core.dal.ExecutionDAOFacade;
+import com.swiftconductor.conductor.core.listener.WorkflowStatusListener;
+import com.swiftconductor.conductor.metrics.Monitors;
+import com.swiftconductor.conductor.model.WorkflowModel;
 
 public class ArchivingWithTTLWorkflowStatusListener implements WorkflowStatusListener {
 

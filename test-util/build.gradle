@@ -4,14 +4,14 @@ plugins {
 dependencies {
 
 
-    implementation "com.swiftconductor:conductor-common:${revConductor}"
-    implementation "com.swiftconductor:conductor-core:${revConductor}"
-    implementation "com.swiftconductor:conductor-server:${revConductor}"
-    implementation "com.swiftconductor:conductor-client:${revConductor}"
-    implementation "com.swiftconductor:conductor-rest:${revConductor}"
-    implementation "com.swiftconductor:conductor-grpc-server:${revConductor}"
-    implementation "com.swiftconductor:conductor-grpc-client:${revConductor}"
-    implementation "com.swiftconductor:conductor-redis-persistence:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-common:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-core:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-server:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-client:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-rest:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-grpc-server:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-grpc-client:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-redis-persistence:${revConductor}"
 
     implementation "com.fasterxml.jackson.core:jackson-databind"
     implementation "com.fasterxml.jackson.core:jackson-core"

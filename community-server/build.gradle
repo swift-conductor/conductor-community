@@ -5,19 +5,19 @@ plugins {
 ext['snakeyaml.version'] = revSnakeYaml
 
 dependencies {
-    implementation "com.swiftconductor:conductor-rest:${revConductor}"
-    implementation "com.swiftconductor:conductor-core:${revConductor}"
-    implementation "com.swiftconductor:conductor-redis-persistence:${revConductor}"
-    implementation "com.swiftconductor:conductor-cassandra-persistence:${revConductor}"
-    implementation "com.swiftconductor:conductor-grpc-server:${revConductor}"
-    implementation "com.swiftconductor:conductor-redis-lock:${revConductor}"
-    implementation "com.swiftconductor:conductor-redis-concurrency-limit:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-rest:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-core:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-redis-persistence:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-cassandra-persistence:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-grpc-server:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-redis-lock:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-redis-concurrency-limit:${revConductor}"
 
 
-    implementation "com.swiftconductor:conductor-http-task:${revConductor}"
-    implementation "com.swiftconductor:conductor-json-jq-task:${revConductor}"
-    implementation "com.swiftconductor:conductor-awss3-storage:${revConductor}"
-    implementation "com.swiftconductor:conductor-awssqs-event-queue:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-http-task:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-json-jq-task:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-awss3-storage:${revConductor}"
+    implementation "com.swiftconductor.conductor:conductor-awssqs-event-queue:${revConductor}"
 
     implementation project(':event-queue:conductor-amqp')
     implementation project(':event-queue:conductor-nats')
@@ -51,8 +51,8 @@ dependencies {
 
     runtimeOnly "org.glassfish.jaxb:jaxb-runtime:${revJAXB}"
 
-    testImplementation "com.swiftconductor:conductor-rest:${revConductor}"
-    testImplementation "com.swiftconductor:conductor-common:${revConductor}"
+    testImplementation "com.swiftconductor.conductor:conductor-rest:${revConductor}"
+    testImplementation "com.swiftconductor.conductor:conductor-common:${revConductor}"
     testImplementation "io.grpc:grpc-testing:${revGrpc}"
     testImplementation "com.google.protobuf:protobuf-java:${revProtoBuf}"
     testImplementation "io.grpc:grpc-protobuf:${revGrpc}"

@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.postgres.dao;
+package com.swiftconductor.conductor.postgres.dao;
 
 import java.sql.Timestamp;
 import java.time.Instant;
@@ -22,14 +22,14 @@ import javax.sql.DataSource;
 
 import org.springframework.retry.support.RetryTemplate;
 
-import com.swiftconductor.common.metadata.events.EventExecution;
-import com.swiftconductor.common.metadata.tasks.TaskExecLog;
-import com.swiftconductor.common.run.SearchResult;
-import com.swiftconductor.common.run.TaskSummary;
-import com.swiftconductor.common.run.WorkflowSummary;
-import com.swiftconductor.core.events.queue.Message;
-import com.swiftconductor.dao.IndexDAO;
-import com.swiftconductor.postgres.util.PostgresIndexQueryBuilder;
+import com.swiftconductor.conductor.common.metadata.events.EventExecution;
+import com.swiftconductor.conductor.common.metadata.tasks.TaskExecLog;
+import com.swiftconductor.conductor.common.run.SearchResult;
+import com.swiftconductor.conductor.common.run.TaskSummary;
+import com.swiftconductor.conductor.common.run.WorkflowSummary;
+import com.swiftconductor.conductor.core.events.queue.Message;
+import com.swiftconductor.conductor.dao.IndexDAO;
+import com.swiftconductor.conductor.postgres.util.PostgresIndexQueryBuilder;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

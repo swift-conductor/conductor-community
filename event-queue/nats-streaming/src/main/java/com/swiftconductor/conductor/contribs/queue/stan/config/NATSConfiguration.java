@@ -9,14 +9,14 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.contribs.queue.stan.config;
+package com.swiftconductor.conductor.contribs.queue.stan.config;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
 
-import com.swiftconductor.core.events.EventQueueProvider;
+import com.swiftconductor.conductor.core.events.EventQueueProvider;
 
 import rx.Scheduler;
 

@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.contribs.queue.amqp;
+package com.swiftconductor.conductor.contribs.queue.amqp;
 
 import java.io.IOException;
 import java.time.Duration;
@@ -30,12 +30,12 @@ import org.mockito.Mockito;
 import org.mockito.internal.stubbing.answers.DoesNothing;
 import org.mockito.stubbing.OngoingStubbing;
 
-import com.swiftconductor.contribs.queue.amqp.config.AMQPEventQueueProperties;
-import com.swiftconductor.contribs.queue.amqp.config.AMQPRetryPattern;
-import com.swiftconductor.contribs.queue.amqp.util.AMQPConstants;
-import com.swiftconductor.contribs.queue.amqp.util.AMQPSettings;
-import com.swiftconductor.contribs.queue.amqp.util.RetryType;
-import com.swiftconductor.core.events.queue.Message;
+import com.swiftconductor.conductor.contribs.queue.amqp.config.AMQPEventQueueProperties;
+import com.swiftconductor.conductor.contribs.queue.amqp.config.AMQPRetryPattern;
+import com.swiftconductor.conductor.contribs.queue.amqp.util.AMQPConstants;
+import com.swiftconductor.conductor.contribs.queue.amqp.util.AMQPSettings;
+import com.swiftconductor.conductor.contribs.queue.amqp.util.RetryType;
+import com.swiftconductor.conductor.core.events.queue.Message;
 
 import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.AMQP.PROTOCOL;

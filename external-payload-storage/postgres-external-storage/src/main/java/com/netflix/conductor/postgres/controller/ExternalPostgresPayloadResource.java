@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.postgres.controller;
+package com.swiftconductor.conductor.postgres.controller;
 
 import java.io.InputStream;
 
@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.swiftconductor.common.utils.ExternalPayloadStorage;
+import com.swiftconductor.conductor.common.utils.ExternalPayloadStorage;
 
 import io.swagger.v3.oas.annotations.Operation;
 

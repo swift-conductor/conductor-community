@@ -9,15 +9,15 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.contribs.listener.archive;
+package com.swiftconductor.conductor.contribs.listener.archive;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.swiftconductor.core.dal.ExecutionDAOFacade;
-import com.swiftconductor.core.listener.WorkflowStatusListener;
+import com.swiftconductor.conductor.core.dal.ExecutionDAOFacade;
+import com.swiftconductor.conductor.core.listener.WorkflowStatusListener;
 
 @Configuration
 @EnableConfigurationProperties(ArchivingWorkflowListenerProperties.class)

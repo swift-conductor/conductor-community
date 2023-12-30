@@ -9,7 +9,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  */
-package com.swiftconductor.contribs.queue.nats.config;
+package com.swiftconductor.conductor.contribs.queue.nats.config;
 
 import java.util.EnumMap;
 import java.util.Map;
@@ -20,10 +20,10 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.swiftconductor.core.config.ConductorProperties;
-import com.swiftconductor.core.events.EventQueueProvider;
-import com.swiftconductor.core.events.queue.ObservableQueue;
-import com.swiftconductor.model.TaskModel;
+import com.swiftconductor.conductor.core.config.ConductorProperties;
+import com.swiftconductor.conductor.core.events.EventQueueProvider;
+import com.swiftconductor.conductor.core.events.queue.ObservableQueue;
+import com.swiftconductor.conductor.model.TaskModel;
 
 import rx.Scheduler;
 

@@ -27,10 +27,10 @@ Group: `com.swiftconductor`
 ```properties
 conductor.db.type=mysql
 
-#Cache expiry for the task definitions in seconds
+# Cache expiry for the task definitions in seconds
 conductor.mysql.taskDefCacheRefreshInterval=60
 
-#Use spring datasource properties to configure MySQL connection
+# Use spring datasource properties to configure MySQL connection
 spring.datasource.url=
 spring.datasource.username=
 spring.datasource.password=
@@ -46,7 +46,7 @@ spring.datasource.hikari.auto-commit=
 ```properties
 conductor.db.type=postgres
 
-#Use spring datasource properties to configure Postgres connection
+# Use spring datasource properties to configure Postgres connection
 spring.datasource.url=
 spring.datasource.username=
 spring.datasource.password=
@@ -62,7 +62,7 @@ This can be enabled by setting the following in your application properties file
 conductor.indexing.type=postgres
 conductor.indexing.enabled=true
 # The following is to force Elastic Search IndexDAO not to run. If it just missing it will still try to start v6
-conductor.elasticsearch.version=postgres
+conductor.elasticsearch.version=7
 ```
 
 It supports full querying of logs through the UI, and exposes the Postgres full text search in two ways. If you search for a chunk of JSON:

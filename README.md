@@ -12,7 +12,7 @@ This repository hosts all the community contributed modules and extensions for [
 
 Swift Conductor is a workflow orchestration engine that runs in the cloud. You can find more details about Swift Conductor at the [Swift Conductor Core](https://github.com/swift-conductor/conductor) repository.
 
-### What is _this_ repository?
+## What is _this_ repository?
 
 Conductor is an extensible platform that allows users to bring in their own persistence, queues, integrations eventing systems such as SQS, NATS, AMQP and pther integrations. 
 

@@ -67,4 +67,4 @@ Please use the Discussions in the Swift Conductor Core repo at https://github.co
 
 #### Does it change how I build Swift Conductor or use the Conductor binaries? (Do I need to pull additional dependency in my builds going forward?)
 
-[Swift Conductor Core](https://github.com/swift-conductor/conductor) **no longer** pulls in all the dependencies from this repository as part of the [server](https://github.com/swift-conductor/conductor/tree/main/server) project build. If you plan to use the modules from this repository, please build the [community-server](./community-server) project in thos repository. That pulls in all the dependencies from Maven Central. 
+[Swift Conductor Core](https://github.com/swift-conductor/conductor) **no longer** pulls in all the dependencies from this repository as part of the [server](https://github.com/swift-conductor/conductor/tree/main/server) project build. If you plan to use the modules from this repository, please build the [community-server](./community-server) project in this repository. That pulls in all the dependencies from Maven Central. 

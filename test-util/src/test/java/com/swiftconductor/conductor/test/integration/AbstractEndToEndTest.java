@@ -67,9 +67,8 @@ public abstract class AbstractEndToEndTest {
 
     private static final ElasticsearchContainer container =
             new ElasticsearchContainer(
-                            DockerImageName.parse(
-                                            "docker.elastic.co/elasticsearch/elasticsearch-oss")
-                                    .withTag("6.8.17"))
+                DockerImageName.parse("elasticsearch")
+                    .withTag("6.8.23"))
                     // Resolve issue with es container not starting on m1/m2 macs
                     .withEnv(Map.of("bootstrap.system_call_filter", "false"));
 

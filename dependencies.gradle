@@ -12,6 +12,7 @@ ext {
     revCommonsIo = '2.7'
     revCuratorRecipes = '5.4.0'
     revCuratorTest = '5.4.0'
+    revElasticSearch6 = '6.8.23'
     revElasticSearch7 = '7.17.16'
     revEmbeddedRedis = '0.6'
     revEurekaClient = '1.10.10'

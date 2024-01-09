@@ -47,8 +47,8 @@ public abstract class ElasticSearchTest {
 
     protected static final ElasticsearchContainer container =
             new ElasticsearchContainer(
-                    DockerImageName.parse("docker.elastic.co/elasticsearch/elasticsearch")
-                            .withTag("7.17.16")); // this should match the client version
+                // witTag should match the client version in root dependencise.gradle, e.g. revElasticSearch7 = '7.17.16' 
+                DockerImageName.parse("elasticsearch").withTag("7.17.16")); 
 
     @Autowired protected ObjectMapper objectMapper;
 

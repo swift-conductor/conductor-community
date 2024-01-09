@@ -23,14 +23,14 @@ In file:
  
 - /build.gradle
 
-change ext['elasticsearch.version'] from revElasticSearch6 to revElasticSearch7
+change `ext['elasticsearch.version'] = revElasticSearch6` to `ext['elasticsearch.version'] = revElasticSearch7`
 
 
 In file:
  
 - /server/src/main/resources/application.properties
 
-change conductor.elasticsearch.version from 6 to 7
+change `conductor.elasticsearch.version=6` to `conductor.elasticsearch.version=7`
 
 Also you need to recreate dependencies.lock files with ES7 dependencies. To do that delete all dependencies.lock files and then run: 
 
@@ -54,42 +54,44 @@ In file:
  
 - /test-harness/src/test/java/com/swiftconductor/conductor/test/integration/AbstractEndToEndTest.java
 
-* change conductor.elasticsearch.version from 6 to 7
-* change DockerImageName.parse("docker.elastic.co/elasticsearch/elasticsearch-oss").withTag("6.8.12") to DockerImageName.parse("docker.elastic.co/elasticsearch/elasticsearch-oss").withTag("7.10.2")
-
+* change `conductor.elasticsearch.version=6` to `conductor.elasticsearch.version=7`
+* change `DockerImageName.parse("elasticsearch:").withTag("6.8.23")` to `DockerImageName.parse("elasticsearch").withTag("7.17.16")`
 
 
 ### Configuration
+
 (Default values shown below)
 
 This module uses the following configuration options:
-```properties
+
+```ini
 # A comma separated list of schema/host/port of the ES nodes to communicate with.
 # Schema can be `http` or `https`. If schema is ignored then `http` transport will be used;
 # Since ES deprecated TransportClient, conductor will use only the  REST transport protocol.
 conductor.elasticsearch.url=
 
-#The name of the workflow and task index. 
+# The name of the workflow and task index. 
 conductor.elasticsearch.indexPrefix=conductor
 
-#Worker Queue size used in executor service for async methods in IndexDao.
+# Worker Queue size used in executor service for async methods in IndexDao.
 conductor.elasticsearch.asyncWorkerQueueSize=100
 
-#Maximum thread pool size in executor service for async methods in IndexDao
+# Maximum thread pool size in executor service for async methods in IndexDao
 conductor.elasticsearch.asyncMaxPoolSize=12
 
-#Timeout (in seconds) for the in-memory to be flushed if not explicitly indexed
+# Timeout (in seconds) for the in-memory to be flushed if not explicitly indexed
 conductor.elasticsearch.asyncBufferFlushTimeout=10
 ```
 
-
 ### BASIC Authentication
+
 If you need to pass user/password to connect to ES, add the following properties to your config file
 * conductor.elasticsearch.username
 * conductor.elasticsearch.password
 
 Example
-```
+
+```ini
 conductor.elasticsearch.username=someusername
 conductor.elasticsearch.password=somepassword
 ```

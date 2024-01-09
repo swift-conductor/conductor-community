@@ -1,7 +1,7 @@
 {
     "annotationProcessor": {
         "org.springframework.boot:spring-boot-configuration-processor": {
-            "locked": "2.7.16"
+            "locked": "2.7.18"
         }
     },
     "compileClasspath": {
@@ -42,16 +42,16 @@
             "locked": "2.17.2"
         },
         "org.springframework.boot:spring-boot-starter": {
-            "locked": "2.7.16"
+            "locked": "2.7.18"
         },
         "org.springframework.boot:spring-boot-starter-web": {
-            "locked": "2.7.16"
+            "locked": "2.7.18"
         },
         "org.springframework.boot:spring-boot-test": {
-            "locked": "2.7.16"
+            "locked": "2.7.18"
         },
         "org.springframework:spring-web": {
-            "locked": "5.3.30"
+            "locked": "5.3.31"
         }
     },
     "runtimeClasspath": {
@@ -151,13 +151,13 @@
             "locked": "2.3-groovy-3.0"
         },
         "org.springframework.boot:spring-boot-starter-log4j2": {
-            "locked": "2.7.16"
+            "locked": "2.7.18"
         },
         "org.springframework.boot:spring-boot-starter-test": {
-            "locked": "2.7.16"
+            "locked": "2.7.18"
         },
         "org.springframework.boot:spring-boot-starter-web": {
-            "locked": "2.7.16"
+            "locked": "2.7.18"
         },
         "org.testcontainers:mockserver": {
             "locked": "1.19.3"
@@ -309,13 +309,13 @@
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-test-util"
             ],
-            "locked": "7.17.13"
+            "locked": "7.17.15"
         },
         "org.elasticsearch.client:elasticsearch-rest-high-level-client": {
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-test-util"
             ],
-            "locked": "7.17.13"
+            "locked": "7.17.15"
         },
         "org.junit.vintage:junit-vintage-engine": {
             "locked": "5.8.2"
@@ -336,19 +336,19 @@
             "locked": "2.3-groovy-3.0"
         },
         "org.springframework.boot:spring-boot-starter-log4j2": {
-            "locked": "2.7.16"
+            "locked": "2.7.18"
         },
         "org.springframework.boot:spring-boot-starter-test": {
-            "locked": "2.7.16"
+            "locked": "2.7.18"
         },
         "org.springframework.boot:spring-boot-starter-validation": {
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-test-util"
             ],
-            "locked": "2.7.16"
+            "locked": "2.7.18"
         },
         "org.springframework.boot:spring-boot-starter-web": {
-            "locked": "2.7.16"
+            "locked": "2.7.18"
         },
         "org.testcontainers:elasticsearch": {
             "firstLevelTransitive": [

@@ -1,7 +1,7 @@
 {
     "annotationProcessor": {
         "org.springframework.boot:spring-boot-configuration-processor": {
-            "locked": "2.7.16"
+            "locked": "2.7.18"
         }
     },
     "compileClasspath": {
@@ -27,10 +27,10 @@
             "locked": "2.17.2"
         },
         "org.springframework.boot:spring-boot-starter": {
-            "locked": "2.7.16"
+            "locked": "2.7.18"
         },
         "org.springframework.boot:spring-boot-starter-web": {
-            "locked": "2.7.16"
+            "locked": "2.7.18"
         }
     },
     "runtimeClasspath": {
@@ -97,13 +97,13 @@
             "locked": "2.3-groovy-3.0"
         },
         "org.springframework.boot:spring-boot-starter-log4j2": {
-            "locked": "2.7.16"
+            "locked": "2.7.18"
         },
         "org.springframework.boot:spring-boot-starter-test": {
-            "locked": "2.7.16"
+            "locked": "2.7.18"
         },
         "org.springframework.boot:spring-boot-starter-web": {
-            "locked": "2.7.16"
+            "locked": "2.7.18"
         }
     },
     "testRuntimeClasspath": {
@@ -147,13 +147,13 @@
             "locked": "2.3-groovy-3.0"
         },
         "org.springframework.boot:spring-boot-starter-log4j2": {
-            "locked": "2.7.16"
+            "locked": "2.7.18"
         },
         "org.springframework.boot:spring-boot-starter-test": {
-            "locked": "2.7.16"
+            "locked": "2.7.18"
         },
         "org.springframework.boot:spring-boot-starter-web": {
-            "locked": "2.7.16"
+            "locked": "2.7.18"
         }
     }
 }

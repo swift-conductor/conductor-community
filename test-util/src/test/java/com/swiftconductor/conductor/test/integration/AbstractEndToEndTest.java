@@ -66,9 +66,7 @@ public abstract class AbstractEndToEndTest {
     protected static final String DEFAULT_EMAIL_ADDRESS = "test@harness.com";
 
     private static final ElasticsearchContainer container =
-            new ElasticsearchContainer(
-                DockerImageName.parse("elasticsearch")
-                    .withTag("6.8.23"))
+            new ElasticsearchContainer(DockerImageName.parse("elasticsearch").withTag("6.8.23"))
                     // Resolve issue with es container not starting on m1/m2 macs
                     .withEnv(Map.of("bootstrap.system_call_filter", "false"));
 

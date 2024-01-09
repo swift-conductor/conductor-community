@@ -21,6 +21,7 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 import com.swiftconductor.conductor.azureblob.config.AzureBlobProperties;
+import com.swiftconductor.conductor.azureblob.storage.AzureBlobPayloadStorage;
 import com.swiftconductor.conductor.common.run.ExternalStorageLocation;
 import com.swiftconductor.conductor.common.utils.ExternalPayloadStorage;
 import com.swiftconductor.conductor.core.exception.NonTransientException;

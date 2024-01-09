@@ -28,6 +28,7 @@ dependencies {
 
     testImplementation "org.testcontainers:mysql:${revTestContainer}"
 
+    testImplementation "com.swiftconductor.conductor:conductor-common:${revConductor}"
     testImplementation "com.swiftconductor.conductor:conductor-server:${revConductor}"
     testImplementation "com.swiftconductor.conductor:conductor-client:${revConductor}"
     testImplementation "com.swiftconductor.conductor:conductor-grpc-client:${revConductor}"
@@ -36,6 +37,7 @@ dependencies {
     //testImplementation "org.spockframework:spock-core:${revSpock}"
     //testImplementation "org.spockframework:spock-spring:${revSpock}"
 
+    testImplementation project(':conductor-test-util')
     testImplementation project(':conductor-test-util').sourceSets.test.output
     testImplementation project(':persistence:conductor-common-persistence').sourceSets.test.output
 

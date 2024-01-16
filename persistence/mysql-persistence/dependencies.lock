@@ -165,6 +165,9 @@
         "com.swiftconductor.conductor:conductor-server": {
             "locked": "3.16.0-SNAPSHOT"
         },
+        "com.swiftconductor.conductor:conductor-test-util": {
+            "project": true
+        },
         "junit:junit": {
             "locked": "4.13.2"
         },
@@ -229,25 +232,52 @@
     "testRuntimeClasspath": {
         "com.fasterxml.jackson.core:jackson-core": {
             "firstLevelTransitive": [
-                "com.swiftconductor.conductor:conductor-common-persistence"
+                "com.swiftconductor.conductor:conductor-common-persistence",
+                "com.swiftconductor.conductor:conductor-test-util"
             ],
             "locked": "2.13.5"
         },
         "com.fasterxml.jackson.core:jackson-databind": {
             "firstLevelTransitive": [
-                "com.swiftconductor.conductor:conductor-common-persistence"
+                "com.swiftconductor.conductor:conductor-common-persistence",
+                "com.swiftconductor.conductor:conductor-test-util"
             ],
             "locked": "2.13.5"
         },
         "com.google.guava:guava": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
             "locked": "32.1.2-jre"
         },
+        "com.google.protobuf:protobuf-java": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
+            "locked": "3.24.3"
+        },
+        "com.netflix.dyno-queues:dyno-queues-redis": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
+            "locked": "2.0.20"
+        },
+        "com.rabbitmq:amqp-client": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
+            "locked": "5.14.3"
+        },
         "com.swiftconductor.conductor:conductor-client": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
             "locked": "3.16.0-SNAPSHOT"
         },
         "com.swiftconductor.conductor:conductor-common": {
             "firstLevelTransitive": [
-                "com.swiftconductor.conductor:conductor-common-persistence"
+                "com.swiftconductor.conductor:conductor-common-persistence",
+                "com.swiftconductor.conductor:conductor-test-util"
             ],
             "locked": "3.16.0-SNAPSHOT"
         },
@@ -256,7 +286,8 @@
         },
         "com.swiftconductor.conductor:conductor-core": {
             "firstLevelTransitive": [
-                "com.swiftconductor.conductor:conductor-common-persistence"
+                "com.swiftconductor.conductor:conductor-common-persistence",
+                "com.swiftconductor.conductor:conductor-test-util"
             ],
             "locked": "3.16.0-SNAPSHOT"
         },
@@ -264,10 +295,37 @@
             "locked": "3.16.0-SNAPSHOT"
         },
         "com.swiftconductor.conductor:conductor-grpc-client": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor.conductor:conductor-grpc-server": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor.conductor:conductor-redis-persistence": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
+            "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor.conductor:conductor-rest": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
             "locked": "3.16.0-SNAPSHOT"
         },
         "com.swiftconductor.conductor:conductor-server": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
             "locked": "3.16.0-SNAPSHOT"
+        },
+        "com.swiftconductor.conductor:conductor-test-util": {
+            "project": true
         },
         "junit:junit": {
             "locked": "4.13.2"
@@ -277,47 +335,62 @@
         },
         "org.apache.commons:commons-lang3": {
             "firstLevelTransitive": [
-                "com.swiftconductor.conductor:conductor-common-persistence"
+                "com.swiftconductor.conductor:conductor-common-persistence",
+                "com.swiftconductor.conductor:conductor-test-util"
             ],
             "locked": "3.12.0"
         },
         "org.apache.logging.log4j:log4j-api": {
             "firstLevelTransitive": [
-                "com.swiftconductor.conductor:conductor-common-persistence"
+                "com.swiftconductor.conductor:conductor-common-persistence",
+                "com.swiftconductor.conductor:conductor-test-util"
             ],
             "locked": "2.17.2"
         },
         "org.apache.logging.log4j:log4j-core": {
             "firstLevelTransitive": [
-                "com.swiftconductor.conductor:conductor-common-persistence"
+                "com.swiftconductor.conductor:conductor-common-persistence",
+                "com.swiftconductor.conductor:conductor-test-util"
             ],
             "locked": "2.17.2"
         },
         "org.apache.logging.log4j:log4j-jul": {
             "firstLevelTransitive": [
-                "com.swiftconductor.conductor:conductor-common-persistence"
+                "com.swiftconductor.conductor:conductor-common-persistence",
+                "com.swiftconductor.conductor:conductor-test-util"
             ],
             "locked": "2.17.2"
         },
         "org.apache.logging.log4j:log4j-slf4j-impl": {
             "firstLevelTransitive": [
-                "com.swiftconductor.conductor:conductor-common-persistence"
+                "com.swiftconductor.conductor:conductor-common-persistence",
+                "com.swiftconductor.conductor:conductor-test-util"
             ],
             "locked": "2.17.2"
         },
         "org.apache.logging.log4j:log4j-web": {
             "firstLevelTransitive": [
-                "com.swiftconductor.conductor:conductor-common-persistence"
+                "com.swiftconductor.conductor:conductor-common-persistence",
+                "com.swiftconductor.conductor:conductor-test-util"
             ],
             "locked": "2.17.2"
         },
         "org.codehaus.groovy:groovy-all": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
             "locked": "3.0.19"
         },
         "org.elasticsearch.client:elasticsearch-rest-client": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
             "locked": "6.8.23"
         },
         "org.elasticsearch.client:elasticsearch-rest-high-level-client": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
             "locked": "6.8.23"
         },
         "org.elasticsearch.client:transport": {
@@ -332,6 +405,18 @@
         "org.junit.vintage:junit-vintage-engine": {
             "locked": "5.8.2"
         },
+        "org.spockframework:spock-core": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
+            "locked": "2.3-groovy-3.0"
+        },
+        "org.spockframework:spock-spring": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
+            "locked": "2.3-groovy-3.0"
+        },
         "org.springframework.boot:spring-boot-starter-jdbc": {
             "locked": "2.7.18"
         },
@@ -341,11 +426,35 @@
         "org.springframework.boot:spring-boot-starter-test": {
             "locked": "2.7.18"
         },
+        "org.springframework.boot:spring-boot-starter-validation": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
+            "locked": "2.7.18"
+        },
         "org.testcontainers:elasticsearch": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
             "locked": "1.19.3"
         },
         "org.testcontainers:mysql": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
             "locked": "1.19.3"
+        },
+        "org.testcontainers:postgresql": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
+            "locked": "1.19.3"
+        },
+        "redis.clients:jedis": {
+            "firstLevelTransitive": [
+                "com.swiftconductor.conductor:conductor-test-util"
+            ],
+            "locked": "3.8.0"
         }
     }
 }

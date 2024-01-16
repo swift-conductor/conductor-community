@@ -99,7 +99,7 @@ public class WorkflowStatusPublisherIntegrationTest {
             List<String> running =
                     workflowExecutionService.getRunningWorkflows(wfName, WORKFLOW_VERSION);
             for (String wfid : running) {
-                workflowExecutor.terminateWorkflow(wfid, "cleanup");
+                workflowExecutor.terminateWorkflow(wfid, "cleanup", false);
             }
         }
         queueDAO.queuesDetail().keySet().forEach(queueDAO::flush);
@@ -113,7 +113,7 @@ public class WorkflowStatusPublisherIntegrationTest {
                         1,
                         "testWorkflowTerminatedListener",
                         new HashMap<>());
-        workflowExecutor.terminateWorkflow(id, INCOMPLETION_REASON);
+        workflowExecutor.terminateWorkflow(id, INCOMPLETION_REASON, false);
 
         List<Message> callbackMessages = queueDAO.pollMessages(CALLBACK_QUEUE, 1, 200);
         queueDAO.ack(CALLBACK_QUEUE, callbackMessages.get(0).getId());

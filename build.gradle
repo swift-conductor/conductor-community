@@ -61,24 +61,8 @@ allprojects {
 
         // repository for -SNAPSHOT.* verions:
         maven {
-            // url "https://artifactory-oss.prod.netflix.net/artifactory/maven-oss-candidates"
             url "https://s01.oss.sonatype.org/content/repositories/snapshots"
         }
-
-        /**
-         * This repository locates artifacts that don't exist in maven central but we had to backup from jcenter
-         * The exclusiveContent
-         */
-        // exclusiveContent {
-        //     forRepository {
-        //         maven {
-        //             url "https://artifactory-oss.prod.netflix.net/artifactory/required-jcenter-modules-backup"
-        //         }
-        //     }
-        //     filter {
-        //         includeGroupByRegex "com\\.github\\.vmg.*"
-        //     }
-        // }
     }
 
     dependencyManagement {

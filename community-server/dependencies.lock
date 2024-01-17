@@ -9,34 +9,34 @@
             "project": true
         },
         "com.swiftconductor.conductor:conductor-awss3-storage": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-awssqs-event-queue": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-azureblob-storage": {
             "project": true
         },
         "com.swiftconductor.conductor:conductor-cassandra-persistence": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-common-persistence": {
             "project": true
         },
         "com.swiftconductor.conductor:conductor-core": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-es7-persistence": {
             "project": true
         },
         "com.swiftconductor.conductor:conductor-grpc-server": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-http-task": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-json-jq-task": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-kafka": {
             "project": true
@@ -57,16 +57,16 @@
             "project": true
         },
         "com.swiftconductor.conductor:conductor-redis-concurrency-limit": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-redis-lock": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-redis-persistence": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-rest": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-workflow-event-listener": {
             "project": true
@@ -90,7 +90,7 @@
             "locked": "2.17.2"
         },
         "org.springdoc:springdoc-openapi-ui": {
-            "locked": "1.6.16-SNAPSHOT"
+            "locked": "1.6.15"
         },
         "org.springframework.boot:spring-boot-starter": {
             "locked": "2.7.18"
@@ -170,16 +170,16 @@
             "project": true
         },
         "com.swiftconductor.conductor:conductor-awss3-storage": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-awssqs-event-queue": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-azureblob-storage": {
             "project": true
         },
         "com.swiftconductor.conductor:conductor-cassandra-persistence": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-common": {
             "firstLevelTransitive": [
@@ -195,7 +195,7 @@
                 "com.swiftconductor.conductor:conductor-postgres-persistence",
                 "com.swiftconductor.conductor:conductor-workflow-event-listener"
             ],
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-common-persistence": {
             "firstLevelTransitive": [
@@ -220,19 +220,19 @@
                 "com.swiftconductor.conductor:conductor-workflow-event-listener",
                 "com.swiftconductor.conductor:conductor-zookeeper-lock"
             ],
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-es7-persistence": {
             "project": true
         },
         "com.swiftconductor.conductor:conductor-grpc-server": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-http-task": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-json-jq-task": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-kafka": {
             "project": true
@@ -253,16 +253,16 @@
             "project": true
         },
         "com.swiftconductor.conductor:conductor-redis-concurrency-limit": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-redis-lock": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-redis-persistence": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-rest": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-workflow-event-listener": {
             "project": true
@@ -479,7 +479,7 @@
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-postgres-external-storage"
             ],
-            "locked": "1.6.16-SNAPSHOT"
+            "locked": "1.6.15"
         },
         "org.springframework.boot:spring-boot-starter": {
             "locked": "2.7.18"
@@ -567,16 +567,16 @@
             "project": true
         },
         "com.swiftconductor.conductor:conductor-awss3-storage": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-awssqs-event-queue": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-azureblob-storage": {
             "project": true
         },
         "com.swiftconductor.conductor:conductor-cassandra-persistence": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-common": {
             "firstLevelTransitive": [
@@ -592,7 +592,7 @@
                 "com.swiftconductor.conductor:conductor-postgres-persistence",
                 "com.swiftconductor.conductor:conductor-workflow-event-listener"
             ],
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-common-persistence": {
             "firstLevelTransitive": [
@@ -617,19 +617,19 @@
                 "com.swiftconductor.conductor:conductor-workflow-event-listener",
                 "com.swiftconductor.conductor:conductor-zookeeper-lock"
             ],
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-es7-persistence": {
             "project": true
         },
         "com.swiftconductor.conductor:conductor-grpc-server": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-http-task": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-json-jq-task": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-kafka": {
             "project": true
@@ -650,16 +650,16 @@
             "project": true
         },
         "com.swiftconductor.conductor:conductor-redis-concurrency-limit": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-redis-lock": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-redis-persistence": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-rest": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-workflow-event-listener": {
             "project": true
@@ -876,7 +876,7 @@
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-postgres-external-storage"
             ],
-            "locked": "1.6.16-SNAPSHOT"
+            "locked": "1.6.15"
         },
         "org.springframework.boot:spring-boot-starter": {
             "locked": "2.7.18"
@@ -905,6 +905,11 @@
             "locked": "1.3.4"
         }
     },
+    "spotless865459188": {
+        "com.google.googlejavaformat:google-java-format": {
+            "locked": "1.19.2"
+        }
+    },
     "testCompileClasspath": {
         "com.google.protobuf:protobuf-java": {
             "locked": "3.21.12"
@@ -913,37 +918,37 @@
             "project": true
         },
         "com.swiftconductor.conductor:conductor-awss3-storage": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-awssqs-event-queue": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-azureblob-storage": {
             "project": true
         },
         "com.swiftconductor.conductor:conductor-cassandra-persistence": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-common": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-common-persistence": {
             "project": true
         },
         "com.swiftconductor.conductor:conductor-core": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-es7-persistence": {
             "project": true
         },
         "com.swiftconductor.conductor:conductor-grpc-server": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-http-task": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-json-jq-task": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-kafka": {
             "project": true
@@ -964,16 +969,16 @@
             "project": true
         },
         "com.swiftconductor.conductor:conductor-redis-concurrency-limit": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-redis-lock": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-redis-persistence": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-rest": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-workflow-event-listener": {
             "project": true
@@ -1012,7 +1017,7 @@
             "locked": "5.8.2"
         },
         "org.springdoc:springdoc-openapi-ui": {
-            "locked": "1.6.16-SNAPSHOT"
+            "locked": "1.6.15"
         },
         "org.springframework.boot:spring-boot-starter": {
             "locked": "2.7.18"
@@ -1098,16 +1103,16 @@
             "project": true
         },
         "com.swiftconductor.conductor:conductor-awss3-storage": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-awssqs-event-queue": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-azureblob-storage": {
             "project": true
         },
         "com.swiftconductor.conductor:conductor-cassandra-persistence": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-common": {
             "firstLevelTransitive": [
@@ -1123,7 +1128,7 @@
                 "com.swiftconductor.conductor:conductor-postgres-persistence",
                 "com.swiftconductor.conductor:conductor-workflow-event-listener"
             ],
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-common-persistence": {
             "firstLevelTransitive": [
@@ -1148,19 +1153,19 @@
                 "com.swiftconductor.conductor:conductor-workflow-event-listener",
                 "com.swiftconductor.conductor:conductor-zookeeper-lock"
             ],
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-es7-persistence": {
             "project": true
         },
         "com.swiftconductor.conductor:conductor-grpc-server": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-http-task": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-json-jq-task": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-kafka": {
             "project": true
@@ -1181,16 +1186,16 @@
             "project": true
         },
         "com.swiftconductor.conductor:conductor-redis-concurrency-limit": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-redis-lock": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-redis-persistence": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-rest": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-workflow-event-listener": {
             "project": true
@@ -1422,7 +1427,7 @@
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-postgres-external-storage"
             ],
-            "locked": "1.6.16-SNAPSHOT"
+            "locked": "1.6.15"
         },
         "org.springframework.boot:spring-boot-starter": {
             "locked": "2.7.18"

@@ -12,10 +12,10 @@
             "locked": "5.13.0"
         },
         "com.swiftconductor.conductor:conductor-common": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-core": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "io.reactivex:rxjava": {
             "locked": "1.2.2"
@@ -53,10 +53,10 @@
             "locked": "5.13.0"
         },
         "com.swiftconductor.conductor:conductor-common": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-core": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "io.reactivex:rxjava": {
             "locked": "1.2.2"
@@ -80,6 +80,11 @@
             "locked": "2.17.2"
         }
     },
+    "spotless865459188": {
+        "com.google.googlejavaformat:google-java-format": {
+            "locked": "1.19.2"
+        }
+    },
     "testCompileClasspath": {
         "com.google.guava:guava": {
             "locked": "32.1.2-jre"
@@ -88,10 +93,10 @@
             "locked": "5.13.0"
         },
         "com.swiftconductor.conductor:conductor-common": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-core": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "io.reactivex:rxjava": {
             "locked": "1.2.2"
@@ -135,10 +140,10 @@
             "locked": "5.13.0"
         },
         "com.swiftconductor.conductor:conductor-common": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-core": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "io.reactivex:rxjava": {
             "locked": "1.2.2"

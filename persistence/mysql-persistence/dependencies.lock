@@ -15,13 +15,13 @@
             "locked": "32.1.2-jre"
         },
         "com.swiftconductor.conductor:conductor-common": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-common-persistence": {
             "project": true
         },
         "com.swiftconductor.conductor:conductor-core": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "mysql:mysql-connector-java": {
             "locked": "8.0.33"
@@ -77,7 +77,7 @@
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-common-persistence"
             ],
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-common-persistence": {
             "project": true
@@ -86,7 +86,7 @@
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-common-persistence"
             ],
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "mysql:mysql-connector-java": {
             "locked": "8.0.33"
@@ -134,6 +134,11 @@
             "locked": "2.7.18"
         }
     },
+    "spotless865459188": {
+        "com.google.googlejavaformat:google-java-format": {
+            "locked": "1.19.2"
+        }
+    },
     "testCompileClasspath": {
         "com.fasterxml.jackson.core:jackson-core": {
             "locked": "2.13.5"
@@ -145,25 +150,25 @@
             "locked": "32.1.2-jre"
         },
         "com.swiftconductor.conductor:conductor-client": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-common": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-common-persistence": {
             "project": true
         },
         "com.swiftconductor.conductor:conductor-core": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-es6-persistence": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-grpc-client": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-server": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-test-util": {
             "project": true
@@ -272,14 +277,14 @@
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-test-util"
             ],
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-common": {
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-common-persistence",
                 "com.swiftconductor.conductor:conductor-test-util"
             ],
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-common-persistence": {
             "project": true
@@ -289,40 +294,40 @@
                 "com.swiftconductor.conductor:conductor-common-persistence",
                 "com.swiftconductor.conductor:conductor-test-util"
             ],
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-es6-persistence": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-grpc-client": {
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-test-util"
             ],
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-grpc-server": {
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-test-util"
             ],
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-redis-persistence": {
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-test-util"
             ],
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-rest": {
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-test-util"
             ],
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-server": {
             "firstLevelTransitive": [
                 "com.swiftconductor.conductor:conductor-test-util"
             ],
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-test-util": {
             "project": true

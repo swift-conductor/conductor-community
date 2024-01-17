@@ -6,7 +6,7 @@
     },
     "compileClasspath": {
         "com.swiftconductor.conductor:conductor-core": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "org.apache.commons:commons-lang3": {
             "locked": "3.12.0"
@@ -35,7 +35,7 @@
     },
     "runtimeClasspath": {
         "com.swiftconductor.conductor:conductor-core": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "org.apache.commons:commons-lang3": {
             "locked": "3.12.0"
@@ -59,9 +59,14 @@
             "locked": "2.17.2"
         }
     },
+    "spotless865459188": {
+        "com.google.googlejavaformat:google-java-format": {
+            "locked": "1.19.2"
+        }
+    },
     "testCompileClasspath": {
         "com.swiftconductor.conductor:conductor-core": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "junit:junit": {
             "locked": "4.13.2"
@@ -102,7 +107,7 @@
     },
     "testRuntimeClasspath": {
         "com.swiftconductor.conductor:conductor-core": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "junit:junit": {
             "locked": "4.13.2"

@@ -6,10 +6,10 @@
     },
     "compileClasspath": {
         "com.swiftconductor.conductor:conductor-common": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-core": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "commons-codec:commons-codec": {
             "locked": "1.15"
@@ -36,7 +36,7 @@
             "locked": "42.3.8"
         },
         "org.springdoc:springdoc-openapi-ui": {
-            "locked": "1.6.16-SNAPSHOT"
+            "locked": "1.6.15"
         },
         "org.springframework.boot:spring-boot-starter": {
             "locked": "2.7.18"
@@ -50,10 +50,10 @@
     },
     "runtimeClasspath": {
         "com.swiftconductor.conductor:conductor-common": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-core": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "commons-codec:commons-codec": {
             "locked": "1.15"
@@ -80,18 +80,23 @@
             "locked": "42.3.8"
         },
         "org.springdoc:springdoc-openapi-ui": {
-            "locked": "1.6.16-SNAPSHOT"
+            "locked": "1.6.15"
         },
         "org.springframework.boot:spring-boot-starter-jdbc": {
             "locked": "2.7.18"
         }
     },
+    "spotless865459188": {
+        "com.google.googlejavaformat:google-java-format": {
+            "locked": "1.19.2"
+        }
+    },
     "testCompileClasspath": {
         "com.swiftconductor.conductor:conductor-common": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-core": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "commons-codec:commons-codec": {
             "locked": "1.15"
@@ -124,7 +129,7 @@
             "locked": "42.3.8"
         },
         "org.springdoc:springdoc-openapi-ui": {
-            "locked": "1.6.16-SNAPSHOT"
+            "locked": "1.6.15"
         },
         "org.springframework.boot:spring-boot-starter-jdbc": {
             "locked": "2.7.18"
@@ -144,10 +149,10 @@
     },
     "testRuntimeClasspath": {
         "com.swiftconductor.conductor:conductor-common": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "com.swiftconductor.conductor:conductor-core": {
-            "locked": "3.16.0-SNAPSHOT"
+            "locked": "3.16.0"
         },
         "commons-codec:commons-codec": {
             "locked": "1.15"
@@ -180,7 +185,7 @@
             "locked": "42.3.8"
         },
         "org.springdoc:springdoc-openapi-ui": {
-            "locked": "1.6.16-SNAPSHOT"
+            "locked": "1.6.15"
         },
         "org.springframework.boot:spring-boot-starter-jdbc": {
             "locked": "2.7.18"
